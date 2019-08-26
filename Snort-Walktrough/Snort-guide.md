@@ -13,6 +13,12 @@
 2. Run snort -l ./logs -c fullstack.rules -r captured.pcap
 3. Snort should exit cleanly. There may be warnings, but no errors should occur
 
+# Writing Rules
+1. Work through How to Write Rules
+2. Research how to set logging/alerting modes in Snort, to configure ways to see the alert output. 
+3. Create an alert for any ping traffic incoming to your machine; add this rule into your fullstack.rules file.
+4. Capture packets that contain Metasploitable pinging your Kali machine, then replay that capture through Snort. Observe the alerts from #3 in the snort output.
+
 # Creating SNORT ICMP rule
 ```bash
 alert icmp any any <> any any (msg:"ICMP test"; sid:1000001)
