@@ -175,3 +175,279 @@ Verdicts:
 ===============================================================================
 Snort exiting
 ```
+
+# Alert Log
+```bash
+
+[**] [1:1000001:0] ICMP test [**]
+[Priority: 0] 
+08/26-11:15:26.375082 fe80::d1f6:20da:38e1:e591 -> ff02::16
+IPV6-ICMP TTL:1 TOS:0x0 ID:256 IpLen:40 DgmLen:76
+
+[**] [1:1000001:0] ICMP test [**]
+[Priority: 0] 
+08/26-11:15:26.392366 fe80::d1f6:20da:38e1:e591 -> ff02::16
+IPV6-ICMP TTL:1 TOS:0x0 ID:256 IpLen:40 DgmLen:76
+
+[**] [1:1000001:0] ICMP test [**]
+[Priority: 0] 
+08/26-11:15:26.392728 fe80::d1f6:20da:38e1:e591 -> ff02::16
+IPV6-ICMP TTL:1 TOS:0x0 ID:256 IpLen:40 DgmLen:76
+
+[**] [1:1000001:0] ICMP test [**]
+[Priority: 0] 
+08/26-11:15:26.392898 fe80::d1f6:20da:38e1:e591 -> ff02::16
+IPV6-ICMP TTL:1 TOS:0x0 ID:256 IpLen:40 DgmLen:76
+
+[**] [1:1000001:0] ICMP test [**]
+[Priority: 0] 
+08/26-11:15:26.467826 fe80::d1f6:20da:38e1:e591 -> ff02::16
+IPV6-ICMP TTL:1 TOS:0x0 ID:256 IpLen:40 DgmLen:76
+
+[**] [1:1000001:0] ICMP test [**]
+[Priority: 0] 
+08/26-11:16:26.479263 fe80::d1f6:20da:38e1:e591 -> ff02::16
+IPV6-ICMP TTL:1 TOS:0x0 ID:256 IpLen:40 DgmLen:76
+
+[**] [1:1000001:0] ICMP test [**]
+[Priority: 0] 
+08/26-11:16:26.495623 fe80::d1f6:20da:38e1:e591 -> ff02::16
+IPV6-ICMP TTL:1 TOS:0x0 ID:256 IpLen:40 DgmLen:76
+
+[**] [1:1000001:0] ICMP test [**]
+[Priority: 0] 
+08/26-11:16:26.495903 fe80::d1f6:20da:38e1:e591 -> ff02::16
+IPV6-ICMP TTL:1 TOS:0x0 ID:256 IpLen:40 DgmLen:76
+
+[**] [1:1000001:0] ICMP test [**]
+[Priority: 0] 
+08/26-11:16:26.496129 fe80::d1f6:20da:38e1:e591 -> ff02::16
+IPV6-ICMP TTL:1 TOS:0x0 ID:256 IpLen:40 DgmLen:76
+
+[**] [1:1000001:0] ICMP test [**]
+[Priority: 0] 
+08/26-11:16:26.497909 fe80::d1f6:20da:38e1:e591 -> ff02::16
+IPV6-ICMP TTL:1 TOS:0x0 ID:256 IpLen:40 DgmLen:76
+
+[**] [1:1000001:0] ICMP test [**]
+[Priority: 0] 
+08/26-11:16:34.925956 192.168.56.105 -> 192.168.56.106
+ICMP TTL:64 TOS:0x0 ID:6481 IpLen:20 DgmLen:84 DF
+Type:8  Code:0  ID:2328   Seq:1  ECHO
+
+[**] [1:1000001:0] ICMP test [**]
+[Priority: 0] 
+08/26-11:16:34.926116 192.168.56.106 -> 192.168.56.105
+ICMP TTL:64 TOS:0x0 ID:41752 IpLen:20 DgmLen:84
+Type:0  Code:0  ID:2328  Seq:1  ECHO REPLY
+
+[**] [1:1000001:0] ICMP test [**]
+[Priority: 0] 
+08/26-11:16:35.934962 192.168.56.105 -> 192.168.56.106
+ICMP TTL:64 TOS:0x0 ID:6715 IpLen:20 DgmLen:84 DF
+Type:8  Code:0  ID:2328   Seq:2  ECHO
+
+[**] [1:1000001:0] ICMP test [**]
+[Priority: 0] 
+08/26-11:16:35.935280 192.168.56.106 -> 192.168.56.105
+ICMP TTL:64 TOS:0x0 ID:41753 IpLen:20 DgmLen:84
+Type:0  Code:0  ID:2328  Seq:2  ECHO REPLY
+
+[**] [1:1000001:0] ICMP test [**]
+[Priority: 0] 
+08/26-11:16:36.956284 192.168.56.105 -> 192.168.56.106
+ICMP TTL:64 TOS:0x0 ID:6918 IpLen:20 DgmLen:84 DF
+Type:8  Code:0  ID:2328   Seq:3  ECHO
+
+[**] [1:1000001:0] ICMP test [**]
+[Priority: 0] 
+08/26-11:16:36.956673 192.168.56.106 -> 192.168.56.105
+ICMP TTL:64 TOS:0x0 ID:41754 IpLen:20 DgmLen:84
+Type:0  Code:0  ID:2328  Seq:3  ECHO REPLY
+
+[**] [1:1000001:0] ICMP test [**]
+[Priority: 0] 
+08/26-11:16:37.980246 192.168.56.105 -> 192.168.56.106
+ICMP TTL:64 TOS:0x0 ID:7098 IpLen:20 DgmLen:84 DF
+Type:8  Code:0  ID:2328   Seq:4  ECHO
+
+[**] [1:1000001:0] ICMP test [**]
+[Priority: 0] 
+08/26-11:16:37.980653 192.168.56.106 -> 192.168.56.105
+ICMP TTL:64 TOS:0x0 ID:41755 IpLen:20 DgmLen:84
+Type:0  Code:0  ID:2328  Seq:4  ECHO REPLY
+
+[**] [1:1000001:0] ICMP test [**]
+[Priority: 0] 
+08/26-11:16:39.003843 192.168.56.105 -> 192.168.56.106
+ICMP TTL:64 TOS:0x0 ID:7162 IpLen:20 DgmLen:84 DF
+Type:8  Code:0  ID:2328   Seq:5  ECHO
+
+[**] [1:1000001:0] ICMP test [**]
+[Priority: 0] 
+08/26-11:16:39.004255 192.168.56.106 -> 192.168.56.105
+ICMP TTL:64 TOS:0x0 ID:41756 IpLen:20 DgmLen:84
+Type:0  Code:0  ID:2328  Seq:5  ECHO REPLY
+
+[**] [1:1000001:0] ICMP test [**]
+[Priority: 0] 
+08/26-11:16:40.028270 192.168.56.105 -> 192.168.56.106
+ICMP TTL:64 TOS:0x0 ID:7301 IpLen:20 DgmLen:84 DF
+Type:8  Code:0  ID:2328   Seq:6  ECHO
+
+[**] [1:1000001:0] ICMP test [**]
+[Priority: 0] 
+08/26-11:16:40.028610 192.168.56.106 -> 192.168.56.105
+ICMP TTL:64 TOS:0x0 ID:41757 IpLen:20 DgmLen:84
+Type:0  Code:0  ID:2328  Seq:6  ECHO REPLY
+
+[**] [1:1000001:0] ICMP test [**]
+[Priority: 0] 
+08/26-11:16:41.051811 192.168.56.105 -> 192.168.56.106
+ICMP TTL:64 TOS:0x0 ID:7457 IpLen:20 DgmLen:84 DF
+Type:8  Code:0  ID:2328   Seq:7  ECHO
+
+[**] [1:1000001:0] ICMP test [**]
+[Priority: 0] 
+08/26-11:16:41.052176 192.168.56.106 -> 192.168.56.105
+ICMP TTL:64 TOS:0x0 ID:41758 IpLen:20 DgmLen:84
+Type:0  Code:0  ID:2328  Seq:7  ECHO REPLY
+
+[**] [1:1000001:0] ICMP test [**]
+[Priority: 0] 
+08/26-11:16:42.105399 192.168.56.105 -> 192.168.56.106
+ICMP TTL:64 TOS:0x0 ID:7674 IpLen:20 DgmLen:84 DF
+Type:8  Code:0  ID:2328   Seq:8  ECHO
+
+[**] [1:1000001:0] ICMP test [**]
+[Priority: 0] 
+08/26-11:16:42.105695 192.168.56.106 -> 192.168.56.105
+ICMP TTL:64 TOS:0x0 ID:41759 IpLen:20 DgmLen:84
+Type:0  Code:0  ID:2328  Seq:8  ECHO REPLY
+
+[**] [1:1000001:0] ICMP test [**]
+[Priority: 0] 
+08/26-11:17:26.584421 fe80::d1f6:20da:38e1:e591 -> ff02::16
+IPV6-ICMP TTL:1 TOS:0x0 ID:256 IpLen:40 DgmLen:76
+
+[**] [1:1000001:0] ICMP test [**]
+[Priority: 0] 
+08/26-11:17:26.600969 fe80::d1f6:20da:38e1:e591 -> ff02::16
+IPV6-ICMP TTL:1 TOS:0x0 ID:256 IpLen:40 DgmLen:76
+
+[**] [1:1000001:0] ICMP test [**]
+[Priority: 0] 
+08/26-11:17:26.601365 fe80::d1f6:20da:38e1:e591 -> ff02::16
+IPV6-ICMP TTL:1 TOS:0x0 ID:256 IpLen:40 DgmLen:76
+
+[**] [1:1000001:0] ICMP test [**]
+[Priority: 0] 
+08/26-11:17:26.601480 fe80::d1f6:20da:38e1:e591 -> ff02::16
+IPV6-ICMP TTL:1 TOS:0x0 ID:256 IpLen:40 DgmLen:76
+
+[**] [1:1000001:0] ICMP test [**]
+[Priority: 0] 
+08/26-11:17:27.027796 fe80::d1f6:20da:38e1:e591 -> ff02::16
+IPV6-ICMP TTL:1 TOS:0x0 ID:256 IpLen:40 DgmLen:76
+
+[**] [1:1000001:0] ICMP test [**]
+[Priority: 0] 
+08/26-11:18:26.689449 fe80::d1f6:20da:38e1:e591 -> ff02::16
+IPV6-ICMP TTL:1 TOS:0x0 ID:256 IpLen:40 DgmLen:76
+
+[**] [1:1000001:0] ICMP test [**]
+[Priority: 0] 
+08/26-11:18:26.705963 fe80::d1f6:20da:38e1:e591 -> ff02::16
+IPV6-ICMP TTL:1 TOS:0x0 ID:256 IpLen:40 DgmLen:76
+
+[**] [1:1000001:0] ICMP test [**]
+[Priority: 0] 
+08/26-11:18:26.706308 fe80::d1f6:20da:38e1:e591 -> ff02::16
+IPV6-ICMP TTL:1 TOS:0x0 ID:256 IpLen:40 DgmLen:76
+
+[**] [1:1000001:0] ICMP test [**]
+[Priority: 0] 
+08/26-11:18:26.706463 fe80::d1f6:20da:38e1:e591 -> ff02::16
+IPV6-ICMP TTL:1 TOS:0x0 ID:256 IpLen:40 DgmLen:76
+
+[**] [1:1000001:0] ICMP test [**]
+[Priority: 0] 
+08/26-11:18:27.058380 fe80::d1f6:20da:38e1:e591 -> ff02::16
+IPV6-ICMP TTL:1 TOS:0x0 ID:256 IpLen:40 DgmLen:76
+
+[**] [1:1000001:0] ICMP test [**]
+[Priority: 0] 
+08/26-11:19:26.786086 fe80::d1f6:20da:38e1:e591 -> ff02::16
+IPV6-ICMP TTL:1 TOS:0x0 ID:256 IpLen:40 DgmLen:76
+
+[**] [1:1000001:0] ICMP test [**]
+[Priority: 0] 
+08/26-11:19:26.802567 fe80::d1f6:20da:38e1:e591 -> ff02::16
+IPV6-ICMP TTL:1 TOS:0x0 ID:256 IpLen:40 DgmLen:76
+
+[**] [1:1000001:0] ICMP test [**]
+[Priority: 0] 
+08/26-11:19:26.802901 fe80::d1f6:20da:38e1:e591 -> ff02::16
+IPV6-ICMP TTL:1 TOS:0x0 ID:256 IpLen:40 DgmLen:76
+
+[**] [1:1000001:0] ICMP test [**]
+[Priority: 0] 
+08/26-11:19:26.803124 fe80::d1f6:20da:38e1:e591 -> ff02::16
+IPV6-ICMP TTL:1 TOS:0x0 ID:256 IpLen:40 DgmLen:76
+
+[**] [1:1000001:0] ICMP test [**]
+[Priority: 0] 
+08/26-11:19:27.088090 fe80::d1f6:20da:38e1:e591 -> ff02::16
+IPV6-ICMP TTL:1 TOS:0x0 ID:256 IpLen:40 DgmLen:76
+
+[**] [1:1000001:0] ICMP test [**]
+[Priority: 0] 
+08/26-11:20:26.892874 fe80::d1f6:20da:38e1:e591 -> ff02::16
+IPV6-ICMP TTL:1 TOS:0x0 ID:256 IpLen:40 DgmLen:76
+
+[**] [1:1000001:0] ICMP test [**]
+[Priority: 0] 
+08/26-11:20:26.909513 fe80::d1f6:20da:38e1:e591 -> ff02::16
+IPV6-ICMP TTL:1 TOS:0x0 ID:256 IpLen:40 DgmLen:76
+
+[**] [1:1000001:0] ICMP test [**]
+[Priority: 0] 
+08/26-11:20:26.909968 fe80::d1f6:20da:38e1:e591 -> ff02::16
+IPV6-ICMP TTL:1 TOS:0x0 ID:256 IpLen:40 DgmLen:76
+
+[**] [1:1000001:0] ICMP test [**]
+[Priority: 0] 
+08/26-11:20:26.910094 fe80::d1f6:20da:38e1:e591 -> ff02::16
+IPV6-ICMP TTL:1 TOS:0x0 ID:256 IpLen:40 DgmLen:76
+
+[**] [1:1000001:0] ICMP test [**]
+[Priority: 0] 
+08/26-11:20:27.117725 fe80::d1f6:20da:38e1:e591 -> ff02::16
+IPV6-ICMP TTL:1 TOS:0x0 ID:256 IpLen:40 DgmLen:76
+
+[**] [1:1000001:0] ICMP test [**]
+[Priority: 0] 
+08/26-11:21:27.003522 fe80::d1f6:20da:38e1:e591 -> ff02::16
+IPV6-ICMP TTL:1 TOS:0x0 ID:256 IpLen:40 DgmLen:76
+
+[**] [1:1000001:0] ICMP test [**]
+[Priority: 0] 
+08/26-11:21:27.020210 fe80::d1f6:20da:38e1:e591 -> ff02::16
+IPV6-ICMP TTL:1 TOS:0x0 ID:256 IpLen:40 DgmLen:76
+
+[**] [1:1000001:0] ICMP test [**]
+[Priority: 0] 
+08/26-11:21:27.020930 fe80::d1f6:20da:38e1:e591 -> ff02::16
+IPV6-ICMP TTL:1 TOS:0x0 ID:256 IpLen:40 DgmLen:76
+
+[**] [1:1000001:0] ICMP test [**]
+[Priority: 0] 
+08/26-11:21:27.020941 fe80::d1f6:20da:38e1:e591 -> ff02::16
+IPV6-ICMP TTL:1 TOS:0x0 ID:256 IpLen:40 DgmLen:76
+
+[**] [1:1000001:0] ICMP test [**]
+[Priority: 0] 
+08/26-11:21:27.148341 fe80::d1f6:20da:38e1:e591 -> ff02::16
+IPV6-ICMP TTL:1 TOS:0x0 ID:256 IpLen:40 DgmLen:76
+
+```
