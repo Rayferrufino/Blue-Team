@@ -12,3 +12,166 @@
 1. Create an empty rules file named fullstack.rules, and an empty directory named logs
 2. Run snort -l ./logs -c fullstack.rules -r captured.pcap
 3. Snort should exit cleanly. There may be warnings, but no errors should occur
+
+# Alerting on scans
+```bash
+root@kali:/media/sf_Downloads# snort -l ./logs -c fullstack.rules -r Metasploit-traffic.pcap 
+Running in IDS mode
+
+        --== Initializing Snort ==--
+Initializing Output Plugins!
+Initializing Preprocessors!
+Initializing Plug-ins!
+Parsing Rules file "fullstack.rules"
+Tagged Packet Limit: 256
+Log directory = ./logs
+
++++++++++++++++++++++++++++++++++++++++++++++++++++
+Initializing rule chains...
+1 Snort rules read
+    1 detection rules
+    0 decoder rules
+    0 preprocessor rules
+1 Option Chains linked into 1 Chain Headers
+0 Dynamic rules
++++++++++++++++++++++++++++++++++++++++++++++++++++
+
++-------------------[Rule Port Counts]---------------------------------------
+|             tcp     udp    icmp      ip
+|     src       0       0       0       0
+|     dst       0       0       0       0
+|     any       0       0       1       0
+|      nc       0       0       1       0
+|     s+d       0       0       0       0
++----------------------------------------------------------------------------
+
++-----------------------[detection-filter-config]------------------------------
+| memory-cap : 1048576 bytes
++-----------------------[detection-filter-rules]-------------------------------
+| none
+-------------------------------------------------------------------------------
+
++-----------------------[rate-filter-config]-----------------------------------
+| memory-cap : 1048576 bytes
++-----------------------[rate-filter-rules]------------------------------------
+| none
+-------------------------------------------------------------------------------
+
++-----------------------[event-filter-config]----------------------------------
+| memory-cap : 1048576 bytes
++-----------------------[event-filter-global]----------------------------------
++-----------------------[event-filter-local]-----------------------------------
+| none
++-----------------------[suppression]------------------------------------------
+| none
+-------------------------------------------------------------------------------
+Rule application order: activation->dynamic->pass->drop->sdrop->reject->alert->log
+Verifying Preprocessor Configurations!
+
+[ Port Based Pattern Matching Memory ]
+pcap DAQ configured to read-file.
+Acquiring network traffic from "Metasploit-traffic.pcap".
+Reload thread starting...
+Reload thread started, thread 0x7ff0ae738700 (2980)
+
+        --== Initialization Complete ==--
+
+   ,,_     -*> Snort! <*-
+  o"  )~   Version 2.9.7.0 GRE (Build 149) 
+   ''''    By Martin Roesch & The Snort Team: http://www.snort.org/contact#team
+           Copyright (C) 2014 Cisco and/or its affiliates. All rights reserved.
+           Copyright (C) 1998-2013 Sourcefire, Inc., et al.
+           Using libpcap version 1.8.1
+           Using PCRE version: 8.39 2016-06-14
+           Using ZLIB version: 1.2.11
+===============================================================================
+Run time for packet processing was 1.1664 seconds
+Snort processed 2282 packets.
+Snort ran for 0 days 0 hours 0 minutes 1 seconds
+   Pkts/sec:         2282
+===============================================================================
+Memory usage summary:
+  Total non-mmapped bytes (arena):       2260992
+  Bytes in mapped regions (hblkhd):      17117184
+  Total allocated space (uordblks):      2066976
+  Total free space (fordblks):           194016
+  Topmost releasable block (keepcost):   40128
+===============================================================================
+Packet I/O Totals:
+   Received:         2282
+   Analyzed:         2282 (100.000%)
+    Dropped:            0 (  0.000%)
+   Filtered:            0 (  0.000%)
+Outstanding:            0 (  0.000%)
+   Injected:            0
+===============================================================================
+Breakdown by protocol (includes rebuilt packets):
+        Eth:         2282 (100.000%)
+       VLAN:            0 (  0.000%)
+        IP4:         2222 ( 97.371%)
+       Frag:            0 (  0.000%)
+       ICMP:           16 (  0.701%)
+        UDP:           38 (  1.665%)
+        TCP:         2133 ( 93.471%)
+        IP6:           49 (  2.147%)
+    IP6 Ext:           84 (  3.681%)
+   IP6 Opts:           35 (  1.534%)
+      Frag6:            0 (  0.000%)
+      ICMP6:           35 (  1.534%)
+       UDP6:           14 (  0.613%)
+       TCP6:            0 (  0.000%)
+     Teredo:            0 (  0.000%)
+    ICMP-IP:            0 (  0.000%)
+    IP4/IP4:            0 (  0.000%)
+    IP4/IP6:            0 (  0.000%)
+    IP6/IP4:            0 (  0.000%)
+    IP6/IP6:            0 (  0.000%)
+        GRE:            0 (  0.000%)
+    GRE Eth:            0 (  0.000%)
+   GRE VLAN:            0 (  0.000%)
+    GRE IP4:            0 (  0.000%)
+    GRE IP6:            0 (  0.000%)
+GRE IP6 Ext:            0 (  0.000%)
+   GRE PPTP:            0 (  0.000%)
+    GRE ARP:            0 (  0.000%)
+    GRE IPX:            0 (  0.000%)
+   GRE Loop:            0 (  0.000%)
+       MPLS:            0 (  0.000%)
+        ARP:           11 (  0.482%)
+        IPX:            0 (  0.000%)
+   Eth Loop:            0 (  0.000%)
+   Eth Disc:            0 (  0.000%)
+   IP4 Disc:            0 (  0.000%)
+   IP6 Disc:            0 (  0.000%)
+   TCP Disc:            0 (  0.000%)
+   UDP Disc:            0 (  0.000%)
+  ICMP Disc:            0 (  0.000%)
+All Discard:            0 (  0.000%)
+      Other:           35 (  1.534%)
+Bad Chk Sum:           66 (  2.892%)
+    Bad TTL:            0 (  0.000%)
+     S5 G 1:            0 (  0.000%)
+     S5 G 2:            0 (  0.000%)
+      Total:         2282
+===============================================================================
+Action Stats:
+     Alerts:           51 (  2.235%)
+     Logged:           51 (  2.235%)
+     Passed:            0 (  0.000%)
+Limits:
+      Match:            0
+      Queue:            0
+        Log:            0
+      Event:            0
+      Alert:            0
+Verdicts:
+      Allow:         2282 (100.000%)
+      Block:            0 (  0.000%)
+    Replace:            0 (  0.000%)
+  Whitelist:            0 (  0.000%)
+  Blacklist:            0 (  0.000%)
+     Ignore:            0 (  0.000%)
+      Retry:            0 (  0.000%)
+===============================================================================
+Snort exiting
+```
