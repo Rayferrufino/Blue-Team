@@ -13,6 +13,12 @@
 2. Run snort -l ./logs -c fullstack.rules -r captured.pcap
 3. Snort should exit cleanly. There may be warnings, but no errors should occur
 
+# Creating SNORT ICMP rule
+```bash
+alert icmp any any <> any any (msg:"ICMP test"; sid:1000001)
+
+```
+
 # Alerting on scans
 ```bash
 root@kali:/media/sf_Downloads# snort -l ./logs -c fullstack.rules -r Metasploit-traffic.pcap 
