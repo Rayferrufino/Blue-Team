@@ -28,6 +28,7 @@
 # Flow Log Record Examples
 ## Flow Log Records for Accepted and Rejected Traffic
 
+The following is an example of a flow log record in which SSH traffic (destination port 22, TCP protocol) to network interface eni-abc123de in account 123456789010 was allowed:
 ```bash
 2 123456789010 eni-abc123de 172.31.16.139 172.31.16.21 20641 22 6 20 4249 1418530010 1418530070 ACCEPT OK
 ```
