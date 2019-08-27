@@ -9,17 +9,25 @@
 
 | Field         | Description   |
 | ------------- |:-------------:| 
-| version       | right-aligned |
-| account-id    | centered      |
-| interface-id  | are neat      |
-| srcaddr       | right-aligned |
-| dstaddr       | centered      |
-| srcport       | are neat      |
-| dstport       | right-aligned |
-| protocol      | centered      |
-| packets       | are neat      |
-| bytes         | centered      |
-| start         | are neat      |
-| end           | right-aligned |
-| action        | centered      |
-| log-status    | are neat      |
+| version       | The VPC Flow Logs version |
+| account-id    | The AWS account ID for the flow log.      |
+| interface-id  | The ID of the network interface for which the traffic is recorded.    |
+| srcaddr       | The source IPv4 or IPv6 address. The IPv4 address of the network interface is always its private IPv4 address. |
+| dstaddr       | The destination IPv4 or IPv6 address. The IPv4 address of the network interface is always its private IPv4 address.|     
+| srcport       | The source port of the traffic.      |
+| dstport       |The destination port of the traffic. |
+| protocol      | The IANA protocol number of the traffic      |
+| packets       | The number of packets transferred during the capture window.      |
+| bytes         | The number of bytes transferred during the capture window.      |
+| start         | The time, in Unix seconds, of the start of the capture window.      |
+| end           | The time, in Unix seconds, of the end of the capture window. |
+| action        | The action associated with the traffic:
+ACCEPT: The recorded traffic was permitted by the security groups or network ACLs.
+
+REJECT: The recorded traffic was not permitted by the security groups or network ACLs.    |
+| log-status    | The logging status of the flow log:
+OK: Data is logging normally to the chosen destinations.
+
+NODATA: There was no network traffic to or from the network interface during the capture window.
+
+SKIPDATA: Some flow log records were skipped during the capture window. This may be because of an internal capacity constraint, or an internal error.      |
