@@ -23,3 +23,11 @@
 | end           | The time, in Unix seconds, of the end of the capture window. |
 | action        | The action associated with the traffic:ACCEPT REJECT.|
 | log-status    | The logging status of the flow log: OK: Data is logging normally to the chosen destinations. NODATA SKIPDATA      |
+
+
+# Flow Log Record Examples
+## Flow Log Records for Accepted and Rejected Traffic
+
+```bash
+2 123456789010 eni-abc123de 172.31.16.139 172.31.16.21 20641 22 6 20 4249 1418530010 1418530070 ACCEPT OK
+```
