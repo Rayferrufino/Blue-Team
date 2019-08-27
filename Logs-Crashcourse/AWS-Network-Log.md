@@ -21,7 +21,7 @@
 | bytes         | The number of bytes transferred during the capture window.      |
 | start         | The time, in Unix seconds, of the start of the capture window.      |
 | end           | The time, in Unix seconds, of the end of the capture window. |
-| action        | The action associated with the traffic:ACCEPT: The recorded traffic was permitted by the security groups or networkACLs.REJECT: The recorded traffic was not permitted by the security groups or network ACLs.    |
+| action        | The action associated with the traffic:ACCEPT: The recorded traffic was permitted by the security groups or networkACLs.REJECT: The recorded traffic was not permitted by the security groups or network ACLs.|
 | log-status    | The logging status of the flow log: OK: Data is logging normally to the chosen destinations.
 NODATA: There was no network traffic to or from the network interface during the capture window.
 SKIPDATA: Some flow log records were skipped during the capture window. This may be because of an internal capacity constraint, or an internal error.      |
