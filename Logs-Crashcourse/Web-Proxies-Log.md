@@ -1,4 +1,4 @@
-```pcap
+```bash
 ## bluecoat proxy logs
 ## http://log-sharing.dreamhosters.com/bluecoat_proxy_big.zip
 ## tail -n300 Demo_log_001.log
