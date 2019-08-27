@@ -1,6 +1,6 @@
 1. What are the field headers? 
 2. What actors are communicating?
-3. The actors on this DNS log are:
+The actors on this DNS log are:
 192.168.1.64      CLIENT
 192.168.15.4      CLIENT
 192.168.1.254	  DNS SERVER
