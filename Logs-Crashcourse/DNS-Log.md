@@ -6,18 +6,18 @@
 192.168.1.254	  DNS SERVER
 3. Which logs are queries vs responses?
 4. Which websites are being queried in the logs?
-- Google.com
--Amazon.com
-- Facebook.com
-- Blogger.com
-- Drugstore
-- Phdcomics
-- Joefrank
-- publicbroadcasting.ney
-- Weather.com
-- wired.com
-- forensicswiki.org
-- washingtonpost.com
+- www.Google.com
+- www.Amazon.com
+- www.Facebook.com
+- www.Blogger.com
+- www.Drugstore
+- www.Phdcomics
+- www.Joefrank
+- www.publicbroadcasting.ney
+- www.Weather.com
+- www.wired.com
+- www.forensicswiki.org
+- www.washingtonpost.com
 - www.soe.ucsc.edu
 - www.paypal.com
 - www.adiumx.com
