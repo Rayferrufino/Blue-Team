@@ -16,6 +16,6 @@
 
 | CODE          | VALUE         | 
 | ------------- |:-------------:| 
-| col 3 is      | A valid copy of the requested object was in the cache. |
-| col 2 is      | The requested object was found in the cache but was rescanned because the virus-scanner-tag-id in the object was different from the current scanner tag.         |  
-| zebra stripes | The object returned from the origin server was noncacheable.     | 
+| TCP_HIT       | A valid copy of the requested object was in the cache. |
+| TCP_RESCAN_HIT| The requested object was found in the cache but was rescanned because the virus-scanner-tag-id in the object was different from the current scanner tag.         |  
+| TCP_NC_MISS   | The object returned from the origin server was noncacheable.     | 
