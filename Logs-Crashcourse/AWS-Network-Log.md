@@ -29,7 +29,7 @@
 ## Flow Log Records for Accepted and Rejected Traffic
 
 The following is an example of a flow log record in which SSH traffic (destination port 22, TCP protocol) to network interface eni-abc123de in account 123456789010 was allowed:
-```bash
+```
 2 123456789010 eni-abc123de 172.31.16.139 172.31.16.21 20641 22 6 20 4249 1418530010 1418530070 ACCEPT OK
 ```
 The following is an example of a flow log record in which RDP traffic (destination port 3389, TCP protocol) to network interface eni-abc123de in account 123456789010 was rejected:
@@ -37,16 +37,16 @@ The following is an example of a flow log record in which RDP traffic (destinati
 2 123456789010 eni-abc123de 172.31.9.69 172.31.9.12 49761 3389 6 20 4249 1418530010 1418530070 REJECT OK
 ```
 The following is an example of a flow log record in which no data was recorded during the capture window:
-```bash
+```
 2 123456789010 eni-1a2b3c4d - - - - - - - 1431280876 1431280934 - NODATA
 ```
 The following is an example of a flow log record in which records were skipped during the capture window:
-```bash
+```
 2 123456789010 eni-4b118871 - - - - - - - 1431280876 1431280934 - SKIPDATA
 ```
 
 ## Security Group and Network ACL Rules
-```bash
+```
 2 123456789010 eni-1235b8ca 203.0.113.12 172.31.16.139 0 0 1 4 336 1432917027 1432917142 ACCEPT OK
 2 123456789010 eni-1235b8ca 172.31.16.139 203.0.113.12 0 0 1 4 336 1432917094 1432917142 REJECT OK
 ```
