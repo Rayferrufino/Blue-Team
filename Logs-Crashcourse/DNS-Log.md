@@ -1,11 +1,11 @@
-What are the field headers?
-What actors are communicating?
-The actors on this DNS log are:
+1. What are the field headers? 
+2. What actors are communicating?
+3. The actors on this DNS log are:
 192.168.1.64      CLIENT
 192.168.15.4      CLIENT
 192.168.1.254	  DNS SERVER
-Which logs are queries vs responses?
-Which websites are being queried in the logs?
+3. Which logs are queries vs responses?
+4. Which websites are being queried in the logs?
 Google.com
 Amazon.com
 Facebook.com
