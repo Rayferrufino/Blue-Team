@@ -32,3 +32,5 @@ The following is an example of a flow log record in which SSH traffic (destinati
 ```bash
 2 123456789010 eni-abc123de 172.31.16.139 172.31.16.21 20641 22 6 20 4249 1418530010 1418530070 ACCEPT OK
 ```
+
+![Veer-traffict](https://learn.fullstackacademy.com/workshop/5d42f584e9d1e50004b78539/content/5d42f6eaf19fa200045d058e/text)
