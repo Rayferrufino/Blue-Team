@@ -34,7 +34,7 @@ The following is an example of a flow log record in which SSH traffic (destinati
 ```
 The following is an example of a flow log record in which RDP traffic (destination port 3389, TCP protocol) to network interface eni-abc123de in account 123456789010 was rejected:
 ```bash
-**2 123456789010 eni-abc123de 172.31.9.69 172.31.9.12 49761 3389 6 20 4249 1418530010 1418530070 REJECT OK**
+2 123456789010 eni-abc123de 172.31.9.69 172.31.9.12 49761 3389 6 20 4249 1418530010 1418530070 REJECT OK
 ```
 The following is an example of a flow log record in which no data was recorded during the capture window:
 ```bash
