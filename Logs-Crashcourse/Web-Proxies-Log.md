@@ -12,7 +12,7 @@
 ### Base on the previous log we can see the following:
 
 1. The proxy program used to capture logs is the **Symantec Bluecoat ProxySG.**
-2. According to Symantec Support the HTTP codes recorded on the logs are TCP_HIT, TCP_NC_MISS, TCP_RESCAN_HIT
+2. According to Symantec Support the HTTP codes recorded on the logs are **TCP_HIT, TCP_NC_MISS, TCP_RESCAN_HIT**
 
 | CODE          | VALUE         | 
 | ------------- |:-------------:| 
