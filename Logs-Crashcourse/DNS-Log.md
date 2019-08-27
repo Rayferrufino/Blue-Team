@@ -6,18 +6,41 @@
 192.168.1.254	  DNS SERVER
 3. Which logs are queries vs responses?
 4. Which websites are being queried in the logs?
-Google.com
-Amazon.com
-Facebook.com
-Blogger.com
-Drugstore
-Phdcomics
-Joefrank
-publicbroadcasting.ney
-Weather.com
-wired.com
-forensicswiki.org
-washingtonpost.com
+- Google.com
+-Amazon.com
+- Facebook.com
+- Blogger.com
+- Drugstore
+- Phdcomics
+- Joefrank
+- publicbroadcasting.ney
+- Weather.com
+- wired.com
+- forensicswiki.org
+- washingtonpost.com
+- www.soe.ucsc.edu
+- www.paypal.com
+- www.adiumx.com
+- www.m-software.de
+- www.mynetgm.com
+- www.youtube.com
+- www.willselfdestruct.com
+- www.marketworks.com
+- www.googleadservices.com
+- www.clintonfein.com
+- www.annoy.com
+- www.microsoft.com
+- www.ebaystores.com
+- www.marieantoniette.com
+- www.auctiva.com
+- www.toroleather.com
+- www.jihadica.com
+- www.orbitz.com
+- www.revresda.com
+- www.vmware.com
+- www.holidayinnsacramento.com
+- www.hellometro.com
+- www.apple.com
 
 <details><summary>DNS LOG</summary>
   <ol>
