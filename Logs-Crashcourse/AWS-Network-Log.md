@@ -12,3 +12,14 @@
 | version       | right-aligned |
 | account-id    | centered      |
 | interface-id  | are neat      |
+| srcaddr       | right-aligned |
+| dstaddr       | centered      |
+| srcport       | are neat      |
+| dstport       | right-aligned |
+| protocol      | centered      |
+| packets       | are neat      |
+| bytes         | centered      |
+| start         | are neat      |
+| end           | right-aligned |
+| action        | centered      |
+| log-status    | are neat      |
