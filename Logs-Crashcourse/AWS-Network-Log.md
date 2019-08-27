@@ -54,7 +54,5 @@ An ACCEPT record for the originating ping that was allowed by both the network A
 
 A REJECT record for the response ping that the network ACL denied.
 
-## Flow Log Record for IPv6 Traffic
-``bash
-2 123456789010 eni-f41c42bf 2001:db8:1234:a100:8d6e:3477:df66:f105 2001:db8:1234:a102:3304:8879:34cf:4071 34892 22 6 54 8855 1477913708 1477913820 ACCEPT OK
-```
+
+
