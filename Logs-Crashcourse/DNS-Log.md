@@ -6,41 +6,163 @@ The actors on this DNS log are:
 192.168.1.254	  DNS SERVER
 3. Which logs are queries vs responses?
 4. Which websites are being queried in the logs?
-- www.Google.com
-- www.Amazon.com
-- www.Facebook.com
-- www.Blogger.com
-- www.Drugstore
-- www.Phdcomics
-- www.Joefrank
-- www.publicbroadcasting.ney
-- www.Weather.com
-- www.wired.com
-- www.forensicswiki.org
-- www.washingtonpost.com
-- www.soe.ucsc.edu
-- www.paypal.com
-- www.adiumx.com
-- www.m-software.de
-- www.mynetgm.com
-- www.youtube.com
-- www.willselfdestruct.com
-- www.marketworks.com
-- www.googleadservices.com
-- www.clintonfein.com
-- www.annoy.com
-- www.microsoft.com
-- www.ebaystores.com
-- www.marieantoniette.com
-- www.auctiva.com
-- www.toroleather.com
-- www.jihadica.com
-- www.orbitz.com
-- www.revresda.com
-- www.vmware.com
-- www.holidayinnsacramento.com
-- www.hellometro.com
-- www.apple.com
+Using a little of Linux we can parse this file to get the websites that were visited
+
+```bash
+cat dns.log | cut -f 7 | uniq | grep www
+```
+<details><summary>www.google.com
+www.blogger.com
+www.phdcomics.com
+www.google-analytics.com
+www.joefrank.com
+www.publicbroadcasting.net
+www.weather.com
+www.wired.com
+www.forensicswiki.org
+www.washingtonpost.com
+www.wired.com
+www.washingtonpost.com
+www.forensicswiki.org
+www.soe.ucsc.edu
+www.jihadica.com
+www.weather.com
+www.update.microsoft.com
+www.yahoo.com
+www.broadcom.com
+www.google.com
+www.weather.com
+www.weather.com
+www.apple.com
+www.wired.com
+www.washingtonpost.com
+www.wired.com
+www.washingtonpost.com
+www.forensicswiki.org
+www.forensicswiki.org
+www.google-analytics.com
+www.google-analytics.com
+www.soe.ucsc.edu
+www.jihadica.com
+www.update.microsoft.com
+www.update.microsoft.com
+wwwa.vmware.com
+www.vmware.com
+www.google.com
+www.blogger.com
+www.l.google.com
+www.apple.com
+www.apple.com.akadns.net
+www.washingtonpost.com.akadns.net
+www.apple.com.akadns.net
+www.washingtonpost.com.akadns.net
+www.apple.com.akadns.net
+www.nytimes.com
+www.wired.com
+www.apple.com.akadns.net
+www.l.google.com
+www.amazon.com
+www.statcounter.com
+www.statcounter.com
+www.google-analytics.com
+www.google-analytics.com
+www.cnn.com
+www.weather.com
+www.yahoo.com
+www.lanehenderson.net
+www.google.com
+www.youtube.com
+www.soe.ucsc.edu
+www.soe.ucsc.edu
+www.facebook.com
+www.abmr.net
+www.washingtonpost.com.akadns.net
+www.wired.com
+www.washingtonpost.com.akadns.net
+www.wired.com
+www.jihadica.com
+www.jihadica.com
+www.facebook.com
+www.amazon.com
+www.weather.com
+www.yahoo.com
+www.me.com
+www.yahoo.com
+www.adiumx.com
+www.apple.com
+www.weather.com
+www.wired.com
+www.washingtonpost.com
+www.wired.com
+www.washingtonpost.com
+www.me.com.edgesuite.net
+www.weather.com
+www.me.com
+www.weather.com
+www.google.com
+www.update.microsoft.com
+www.googleadservices.com
+www.hellosacramento.com
+www.hellometro.com
+www.google-analytics.com
+www.holidayinnsacramento.com
+www.sacramentohi.com
+www.hibeaumont.com
+www.ichotelsgroup.com
+www.abmr.net
+wwwa.vmware.com
+www.vmware.com
+www.orbitz.com
+www.revresda.com
+www.orbitz.com
+www.wired.com
+www.washingtonpost.com
+www.wired.com
+www.washingtonpost.com
+www.forensicswiki.org
+www.soe.ucsc.edu
+www.jihadica.com
+www.jihadica.com
+www.ebay.com
+www999.shopping.com
+www999.shopping.com
+www.toroleather.com
+www.toroleather.com
+www.weather.com
+www.auctiva.com
+www.auctiva.com
+www.l.google.com
+www.update.microsoft.com
+www.marieantoniette.com
+www.microsoft.com
+www.annoy.com
+www.google-analytics.com
+www.statcounter.com
+www.clintonfein.com
+www.youtube.com
+www.clintonfein.com
+www.googleadservices.com
+www.paypal.com
+www.marketworks.com
+www.marketworks.com
+www.paypal.com
+www.ebay.com
+www.ebay.com
+www.sendanonymousemail.net
+www.ebaystores.com
+www.eyeblaster.georedirector.akadns.net
+www.willselfdestruct.com
+www-google-analytics.l.google.com
+www.youtube.com
+www.mynetgm.com
+www.l.google.com
+www.m-software.de
+www.adiumx.com
+www.paypal.com
+www.weather.com
+www.google.com
+</summary></details>
+
 
 <details><summary>DNS LOG</summary>
   <ol>
