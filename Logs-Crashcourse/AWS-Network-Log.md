@@ -6,3 +6,9 @@
 ```bash
 <version> <account-id> <interface-id> <srcaddr> <dstaddr> <srcport> <dstport> <protocol> <packets> <bytes> <start> <end> <action> <log-status>
 ```
+
+| Field         | Description   |
+| ------------- |:-------------:| 
+| version       | right-aligned |
+| account-id    | centered      |
+| interface-id  | are neat      |
