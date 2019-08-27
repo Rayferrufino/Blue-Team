@@ -11,7 +11,8 @@ Using a little of Linux we can parse this file to get the websites that were vis
 ```bash
 cat dns.log | cut -f 7 | uniq | grep www
 ```
-<details><summary>www.google.com
+<details><summary>Websites</summary>
+www.google.com
 www.blogger.com
 www.phdcomics.com
 www.google-analytics.com
@@ -161,7 +162,8 @@ www.adiumx.com
 www.paypal.com
 www.weather.com
 www.google.com
-</summary></details>
+
+</details>
 
 
 <details><summary>DNS LOG</summary>
