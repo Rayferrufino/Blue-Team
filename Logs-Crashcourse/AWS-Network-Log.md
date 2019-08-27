@@ -32,13 +32,29 @@ The following is an example of a flow log record in which SSH traffic (destinati
 ```bash
 2 123456789010 eni-abc123de 172.31.16.139 172.31.16.21 20641 22 6 20 4249 1418530010 1418530070 ACCEPT OK
 ```
-
+The following is an example of a flow log record in which RDP traffic (destination port 3389, TCP protocol) to network interface eni-abc123de in account 123456789010 was rejected:
 ```bash
-2 123456789010 eni-abc123de 172.31.16.139 172.31.16.21 20641 22 6 20 4249 1418530010 1418530070 ACCEPT OK
 2 123456789010 eni-abc123de 172.31.9.69 172.31.9.12 49761 3389 6 20 4249 1418530010 1418530070 REJECT OK
+```
+The following is an example of a flow log record in which no data was recorded during the capture window:
+```bash
 2 123456789010 eni-1a2b3c4d - - - - - - - 1431280876 1431280934 - NODATA
+```
+The following is an example of a flow log record in which records were skipped during the capture window:
+```bash
 2 123456789010 eni-4b118871 - - - - - - - 1431280876 1431280934 - SKIPDATA
+```
+
+## Security Group and Network ACL Rules
+```bash
 2 123456789010 eni-1235b8ca 203.0.113.12 172.31.16.139 0 0 1 4 336 1432917027 1432917142 ACCEPT OK
 2 123456789010 eni-1235b8ca 172.31.16.139 203.0.113.12 0 0 1 4 336 1432917094 1432917142 REJECT OK
+```
+An ACCEPT record for the originating ping that was allowed by both the network ACL and the security group, and therefore was allowed to reach your instance.
+
+A REJECT record for the response ping that the network ACL denied.
+
+## Flow Log Record for IPv6 Traffic
+``bash
 2 123456789010 eni-f41c42bf 2001:db8:1234:a100:8d6e:3477:df66:f105 2001:db8:1234:a102:3304:8879:34cf:4071 34892 22 6 54 8855 1477913708 1477913820 ACCEPT OK
 ```
