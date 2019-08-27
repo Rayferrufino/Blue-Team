@@ -1,3 +1,24 @@
+What are the field headers?
+What actors are communicating?
+The actors on this DNS log are:
+192.168.1.64      CLIENT
+192.168.15.4      CLIENT
+192.168.1.254	  DNS SERVER
+Which logs are queries vs responses?
+Which websites are being queried in the logs?
+Google.com
+Amazon.com
+Facebook.com
+Blogger.com
+Drugstore
+Phdcomics
+Joefrank
+publicbroadcasting.ney
+Weather.com
+wired.com
+forensicswiki.org
+washingtonpost.com
+
 <details><summary>DNS LOG</summary>
   <ol>
 <li>1216691467.376171000	192.168.1.64	34280	192.168.1.254	53	17	www.google.com		</li>
