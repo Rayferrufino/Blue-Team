@@ -23,12 +23,12 @@
 ``` 
 
 # Windows Firewall Logs
+## Version: 1.5
+## Software: Microsoft Windows Firewall
+## Time Format: Local
+### Fields: date time action protocol src-ip dst-ip src-port dst-port size tcpflags tcpsyn tcpack tcpwin icmptype icmpcode info path
 
 ```bash
-#Version: 1.5
-#Software: Microsoft Windows Firewall
-#Time Format: Local
-#Fields: date time action protocol src-ip dst-ip src-port dst-port size tcpflags tcpsyn tcpack tcpwin icmptype icmpcode info path
 
 2019-08-23 20:14:47 ALLOW UDP 10.0.2.15 10.0.2.3 58453 53 0 - - - - - - - SEND
 2019-08-23 20:14:47 ALLOW UDP 10.0.2.15 10.0.2.3 57128 53 0 - - - - - - - SEND
@@ -149,10 +149,11 @@
 2019-08-23 20:30:01 ALLOW UDP 10.0.2.15 10.0.2.3 55435 53 0 - - - - - - - SEND
 ```
 # Windows Event Viewer Logs
+## successful login attempt generated with Event Viewer
 ![Eventviewer](https://learndotresources.s3.amazonaws.com/workshop/5d42f98c2d669d000414097d/g02.png)
 
 ```bash
-## successful login attempt generated with Event Viewer
+
 
 Log Name:      Security
 Source:        Microsoft-Windows-Security-Auditing
