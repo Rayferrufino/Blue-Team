@@ -535,3 +535,4 @@ Aug 25 20:55:39 dnsmasq[2890]: /etc/pihole/gravity.list apricorni.vardtorg.ru is
 Aug 25 20:55:39 dnsmasq[2890]: query[A] apricorni.vardtorg.ru from 192.168.56.101
 Aug 25 20:55:39 dnsmasq[2890]: /etc/pihole/gravity.list apricorni.vardtorg.ru is 0.0.0.0
 ```
+![DNS](https://learndotresources.s3.amazonaws.com/workshop/5d42f98c2d669d000414097d/xss1.png)
