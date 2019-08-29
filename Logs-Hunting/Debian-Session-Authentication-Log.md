@@ -1,4 +1,4 @@
-# Debian Valid Session Login
+# Debian Valid Privilege Escalation login to SUDO env
 ```bash
 Aug  5 14:09:20 debian sudo:   debian : TTY=pts/0 ; PWD=/home/debian ; USER=root ; COMMAND=/usr/bin/su
 Aug  5 14:09:20 debian sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
@@ -16,7 +16,7 @@ Aug  5 14:09:43 debian sudo:   debian : TTY=pts/0 ; PWD=/home/debian ; USER=root
 Aug  5 14:09:43 debian sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
 ```
 
-# Debian Invalid Session Login
+# Debian Invalid Privilege Escalation Attempt to SUDO env
 ```bash
 Aug  6 02:52:28 debian sudo:   debian : 3 incorrect password attempts ; TTY=pts/2 ; PWD=/home/debian ; USER=root ; COMMAND=/usr/bin/su
 Aug  6 02:52:31 debian sudo: pam_unix(sudo:auth): authentication failure; logname= uid=1000 euid=0 tty=/dev/pts/2 ruser=debian rhost=  user=debian
