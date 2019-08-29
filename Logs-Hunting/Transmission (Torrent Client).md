@@ -1,0 +1,23 @@
+# normal auth logs + added blackarch.org ISO download
+```bash
+[2019-08-25 19:42:44.535] UDP Please add the line "net.core.rmem_max = 4194304" to /etc/sysctl.conf (tr-udp.c:89)
+[2019-08-25 19:42:44.535] UDP Failed to set send buffer: requested 1048576, got 425984 (tr-udp.c:95)
+[2019-08-25 19:42:44.535] UDP Please add the line "net.core.wmem_max = 1048576" to /etc/sysctl.conf (tr-udp.c:100)
+[2019-08-25 19:42:44.535] DHT Generating new id (tr-dht.c:311)
+[2019-08-25 19:42:44.535] Using settings from "/home/debian/.config/transmission-daemon" (daemon.c:528)
+[2019-08-25 19:42:44.535] Saved "/home/debian/.config/transmission-daemon/settings.json" (variant.c:1266)
+[2019-08-25 19:42:44.535] transmission-daemon requiring authentication (daemon.c:554)
+[2019-08-25 19:42:44.535] Port Forwarding (NAT-PMP) initnatpmp succeeded (0) (natpmp.c:70)
+[2019-08-25 19:42:44.535] Port Forwarding (NAT-PMP) sendpublicaddressrequest succeeded (2) (natpmp.c:70)
+[2019-08-25 19:42:52.538] Port Forwarding State changed from "Not forwarded" to "Starting" (port-forwarding.c:92)
+[2019-08-25 19:43:41.535] DHT Attempting bootstrap from dht.transmissionbt.com (tr-dht.c:249)
+[2019-08-25 19:44:07.537] Searching for web interface file "/home/debian/.local/share/transmission/web/index.html" (platform.c:430)
+[2019-08-25 19:44:07.537] Searching for web interface file "/usr/share/transmission/web/index.html" (platform.c:430)
+[2019-08-25 19:44:15.539] Saved "/home/debian/.config/transmission-daemon/torrents/blackarch-linux-netinst-2019.06.01-x86_64.iso.9f9ed8e496ff66e7.torrent" (variant.c:1266)
+[2019-08-25 19:44:15.539] blackarch-linux-netinst-2019.06.01-x86_64.iso Queued for verification (verify.c:269)
+[2019-08-25 19:44:15.539] blackarch-linux-netinst-2019.06.01-x86_64.iso Verifying torrent (verify.c:224)
+[2019-08-25 19:44:24.535] blackarch-linux-netinst-2019.06.01-x86_64.iso Starting IPv4 DHT announce (poor, 13 nodes) (tr-dht.c:577)
+[2019-08-25 19:44:52.535] Port Forwarding State changed from "Starting" to "???" (port-forwarding.c:92)
+[2019-08-25 19:45:22.534] blackarch-linux-netinst-2019.06.01-x86_64.iso Pausing (torrent.c:1856)
+[2019-08-25 19:45:22.534] Saved "/home/debian/.config/transmission-daemon/resume/blackarch-linux-netinst-2019.06.01-x86_64.iso.9f9ed8e496ff66e7.resume" (variant.c:1266)
+```
