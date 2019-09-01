@@ -15,7 +15,7 @@
 
 ***Risk= Threat X Vuln***
 
-**NIST SP 800-30 RISK ASSESSTMENT:**
+## NIST SP 800-30 RISK ASSESSTMENT:
 1. Identify threat sources and events
 2. Identify Vuln and predisposing conditions
 3. Determinate likelihood of Occurence
@@ -48,7 +48,7 @@
 
 **DNS SINKHOLES:** feed false info to malicious software that had compromised the network.
 
-**NIST PENTEST**
+## NIST PENTEST
   - Planing: timing, scope, Authorization, 
   - Discovery: Port scans, checking public material, web app testers
   - Attack: Gaining access, Escalating Priv, System Brownsing, Install additional tools
@@ -87,10 +87,14 @@ Uses host scanning tools to gather info about systems, services ,and vuln. Mappi
 
 **Harvesting Data from WHOIS**
 
-**IP to human readable** NSLOOKUP
+**IP to human readable** NSLOOKUP 
+
 **Traceroute:** usuful for mapping the external network of a company
+
 **Domain names** are managed by REGISTRARS....TDL:Top level domain.....ccTLD...country top level domain
+
 **DIG:** useful for querying a DNS server
+
 **ZONE TRANSFERS:** used for replicating DNS databases between DNS servers.Ex host -t axfr domain.name dns-server.
 
 **Exif data:** tag data from photos
@@ -101,36 +105,35 @@ Uses host scanning tools to gather info about systems, services ,and vuln. Mappi
 **Social Enginerring toolkit**
 **Metasploit**
 
-**DETECTING, PREVENTING AND RESPONDING TO RECON:**
+## DETECTING, PREVENTING AND RESPONDING TO RECON:
 
-NETWORK TRAFFIC ANALYSIS:
-using IDS, HIDSs and NIDSs you can perform:
-Packet analysis
-Protocol Analysis
-Traffic and Flow analysis
-Device and System logs
-SIEM
-Security Device Log
+**NETWORK TRAFFIC ANALYSIS:**
+Using IDS, HIDSs and NIDSs you can perform:
+- Packet analysis
+- Protocol Analysis
+- Traffic and Flow analysis
+- Device and System logs
+- SIEM
+- Security Device Log
 
-DATA ANALYSIS METHODS
+## DATA ANALYSIS METHODS
 
-Anomaly Analysis: Look for differences on common patterns or expected behaviors. System Admin set what is normal to build the threat model
-that IDS will use
+**Anomaly Analysis:** Look for differences on common patterns or expected behaviors. System Admin set what is normal to build the threat model that IDS will use
 
-Trend Analysis: Focus on predicting behaviors base on current data.
+**Trend Analysis:** Focus on predicting behaviors base on current data.
 
-Signature Analysis: uses a fingerprint or signature to detec threats based on other events. the signature has to exist first before it can be detected
+**Signature Analysis:** uses a fingerprint or signature to detec threats based on other events. the signature has to exist first before it can be detected
 
-Heuristic/Behavior Analysis: detects threats based on their behavior. heuristic detection can detect unknown threats
+**Heuristic/Behavior Analysis:** detects threats based on their behavior. heuristic detection can detect unknown threats
 
-Manual Analysis: huma expertise and instinc can be useful when analyzing data.
+**Manual Analysis:** huma expertise and instinc can be useful when analyzing data.
 
-Preventing Passive Info Gathering:
+## Preventing Passive Info Gathering:
 
-Blacklisting systems or networks that abuse service
-Using CAPTCHAs to prevent bots
-Implementing rate limit to fight lookups at high speed
-Hide zone transfer info.
+- Blacklisting systems or networks that abuse service
+- Using CAPTCHAs to prevent bots
+- Implementing rate limit to fight lookups at high speed
+- Hide zone transfer info.
 
 
 
