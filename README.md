@@ -85,23 +85,23 @@ Uses host scanning tools to gather info about systems, services ,and vuln. Mappi
 - System logs............loged events by windows components
 - ForwardEvent logs......events for remote pc's
 
-Harvesting Data from WHOIS
+**Harvesting Data from WHOIS**
 
-IP to human readable NSLOOKUP
-Traceroute: usuful for mapping the external network of a company
-Domain names are managed by REGISTRARS....TDL:Top level domain.....ccTLD...country top level domain
-DIG: useful for querying a DNS server
-ZONE TRANSFERS: used for replicating DNS databases between DNS servers.Ex host -t axfr domain.name dns-server.
+**IP to human readable** NSLOOKUP
+**Traceroute:** usuful for mapping the external network of a company
+**Domain names** are managed by REGISTRARS....TDL:Top level domain.....ccTLD...country top level domain
+**DIG:** useful for querying a DNS server
+**ZONE TRANSFERS:** used for replicating DNS databases between DNS servers.Ex host -t axfr domain.name dns-server.
 
-Exif data: tag data from photos
-metadata scrubbing: sensitive metadata like geolocation,timestamp creator of file
+**Exif data:** tag data from photos
+**Metadata scrubbing:** sensitive metadata like geolocation,timestamp creator of file
 
-SOCIAL ENGINEERING
-creepy: geolocation tool that uses social media and file metadata 
-Social Enginerring toolkit
-Metasploit
+**SOCIAL ENGINEERING**
+**creepy:** geolocation tool that uses social media and file metadata 
+**Social Enginerring toolkit**
+**Metasploit**
 
-DETECTING, PREVENTING AND RESPONDING TO RECON:
+**DETECTING, PREVENTING AND RESPONDING TO RECON:**
 
 NETWORK TRAFFIC ANALYSIS:
 using IDS, HIDSs and NIDSs you can perform:
