@@ -22,69 +22,68 @@
 4. Determinate Magnitude of Impact
 5. Determinate Risk
   
-  **Identify Threats:**
+**Identify Threats:**
   - APT
   - Accidental Threats
   - Structural Thteats
   - Environmental Threats
 
-  Determinate Likelihood, Impact and Risk:
-  -Low, medium, high
-  -Risk acceptance, risk transference, risk avoidence
-  -Network Acces Control (NAC) uses 802.1x protocol
-  -Supplicant= request and authenticator= on network switch or AP, use RADIUS
-  NAC
-  -NAC criterias: Role, Location, Time of Day, System Health
+**Determinate Likelihood, Impact and Risk:**
+  - Low, medium, high
+  - Risk acceptance, risk transference, risk avoidence
+  - Network Acces Control (NAC) uses 802.1x protocol
+  - Supplicant= request and authenticator= on network switch or AP, use RADIUS
   
-FIREWALLS
-  -Firewal: triple-homed means ONE firewall connects 3 networks
-  -Type of Firewals:
-    -Packet filtering: check each packet againts firewall rules 
-    -Statuful Inspection: Check packets and retain info about each state of passing connections
-    -NGFWs: packet check + state info + contextual imformation
-    -WAFs: Protec againts SQLinjection  and CXSS scripting
+**NAC**
+  - NAC criterias: Role, Location, Time of Day, System Health
+  
+**FIREWALLS**
+  - Firewall: triple-homed means ONE firewall connects 3 networks
+  
+  - Type of Firewals:
+    - Packet filtering: check each packet againts firewall rules 
+    - Statuful Inspection: Check packets and retain info about each state of passing connections
+    - NGFWs: packet check + state info + contextual imformation
+    - WAFs: Protec againts SQLinjection  and CXSS scripting
 
-DNS SINKHOLES: feed false info to malicious software that had compromised the network.
+**DNS SINKHOLES:** feed false info to malicious software that had compromised the network.
 
-NIST PENTEST
-  -Planing: timing, scope, Authorization, 
-  -Discovery: Port scans, checking public material, web app testers
-  -Attack: Gaining access, Escalating Priv, System Brownsing, Install additional tools
-  -Reporting 
+**NIST PENTEST**
+  - Planing: timing, scope, Authorization, 
+  - Discovery: Port scans, checking public material, web app testers
+  - Attack: Gaining access, Escalating Priv, System Brownsing, Install additional tools
+  - Reporting 
 
 
-Reverse Engineering: Decomposition
+**Reverse Engineering:** Decomposition
 
-Isolation and Sanboxing: 
+**Isolation and Sanboxing:** 
 Sanboxing systems/solutions search systems and network for unknown code or strange behavior flagged as code detonation and sandbox it
 
-Fingerprint Software: use of hash prevent code tampering
+**Fingerprint Software:** use of hash prevent code tampering
 
-=====================================================================================================================================
-CHAPTER 2
-
-Active Recon: 
-uses host scanning tools to gather info about systems, services ,and vuln. Mapping network and discovering topology 
-NMAP:
-Service and Version: banner grabbing (nmap -sV).
-OS Fingerprinting: nmap -O
-Nmap TCP SYN: most popular type of scan method. quick and unobtrusive
+**Active Recon:** 
+Uses host scanning tools to gather info about systems, services ,and vuln. Mapping network and discovering topology 
+**NMAP:**
+- Service and Version: banner grabbing (nmap -sV).
+- OS Fingerprinting: nmap -O
+- Nmap TCP SYN: most popular type of scan method. quick and unobtrusive
 
 
-Passive Recon:
-Network-Logs
-Netflow: is a cisco protocol that collects IP traffic infonetowkr monitoring. 
-Netstat: gather local host network info.
-DHCP-logs and DHCP Server Configuration: quick way to identify the number of host in the network.
-Firewall-logs: for ACL
-System-logs: linux var/log
+**Passive Recon:**
+- Network-Logs
+- Netflow: is a cisco protocol that collects IP traffic infonetowkr monitoring. 
+- Netstat: gather local host network info.
+- DHCP-logs and DHCP Server Configuration: quick way to identify the number of host in the network.
+- Firewall-logs: for ACL
+- System-logs: linux var/log
 
-Windows log types: 
-Aplication logs........event logs ofr programs
-Security logs..........login events, resources and right usage 
-Setup logs.............capture setup apps
-System logs............loged events by windows components
-ForwardEvent logs......events for remote pc's
+**Windows log types:** 
+- Aplication logs........event logs ofr programs
+- Security logs..........login events, resources and right usage 
+- Setup logs.............capture setup apps
+- System logs............loged events by windows components
+- ForwardEvent logs......events for remote pc's
 
 Harvesting Data from WHOIS
 
