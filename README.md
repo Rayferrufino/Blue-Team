@@ -15,12 +15,12 @@
 
 ***Risk= Threat X Vuln***
 
-NIST SP 800-30 RISK ASSESSTMENT:
-1.Identify threat sources and events
-2.Identify Vuln and predisposing conditions
-3.Determinate likelihood of Occurence
-4.Determinate Magnitude of Impact
-5.Determinate Risk
+**NIST SP 800-30 RISK ASSESSTMENT:**
+1. Identify threat sources and events
+2. Identify Vuln and predisposing conditions
+3. Determinate likelihood of Occurence
+4. Determinate Magnitude of Impact
+5. Determinate Risk
   
   Identify Threats:
   -APT
