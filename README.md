@@ -22,13 +22,11 @@
 4. Determinate Magnitude of Impact
 5. Determinate Risk
   
-  Identify Threats:
-  -APT
-  -Accidental Threats
-  -Structural Thteats
-  -Environmental Threats
-
-  Identify Vulneravilities: check chapt 3,4
+  **Identify Threats:**
+  - APT
+  - Accidental Threats
+  - Structural Thteats
+  - Environmental Threats
 
   Determinate Likelihood, Impact and Risk:
   -Low, medium, high
