@@ -1,5 +1,5 @@
 # Blue-Team Notes
-
+![Blue-Team](https://8nruhw.dm.files.1drv.com/y4mjBJkHOrF7zfGuMX3HG21JqrVSSIFu6pRaO9R9n_wJgFEqqU_7yTGXSGlZewMA2BOPWW89BrFXr1qKit9EZ0ScCZFv11AbtUxfy2ATzym2c_CMoBmYWtyHVzPYk8P8btuorztMTkqLqqxSV9f7deaprQGj3avFWmARpinksYLuAwDpJsfj2hiEQpwKNxD8dz-7QA9iuC0ArgLtu3DG9VY-w?width=650&height=274&cropmode=none)
 ## CIA
 **Confidentialy:** ensures that unauthorized indiv are not able to gain access to sensitive info
 
