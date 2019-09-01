@@ -2,12 +2,17 @@
 
 ## CIA
 **Confidentialy:** ensures that unauthorized indiv are not able to gain access to sensitive info
+
 **Integrity:** ensures that there are not unathorized modifications to info or systems 
+
 **Availbility:** ensures that info and systems are ready to meet the needs of legitimate users
 
 **Vulnerability:** is a weakness in a device, system , app or proccess that might allow an attack to take place
+
 **Threat:** Outside force that may exploit a vulnerability 
+
 **Risk:** is the combination of a threat  and a corresponding vuln. both of this factors must be present before a situation pose a risk!
+
 ***Risk= Threat X Vuln***
 
 NIST SP 800-30 RISK ASSESSTMENT:
