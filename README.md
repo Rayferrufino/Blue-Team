@@ -188,20 +188,15 @@ may curtail bandwidth consumed by the scanner.
 ### What test will be performed againts systems discovered by a vulnerability scan?
 
 # Security Content Automation Protocol SCAP 
-|   Common Configuration Enumaration CCE                  |
+| Security Content Automation Protocol SCAP               |
 |---------------------------------------------------------|
+|   **Common Configuration Enumaration CCE**              |
 |Provides a stantard nomenclature for system configuration issues|
-
-|Common Platform Enumeration CPE                          |
-|---------------------------------------------------------|
+|**Common Platform Enumeration CPE**                      |
 |Provides a standard for describing product names and services|
-
-|Common Vulnerability and Exposure    CVE                    |
-|---------------------------------------------------------|
+|**Common Vulnerability and Exposure    CVE**             |
 |Provides a standard nomenclature for describing security related software flaws|
-
-|Common Vulnerability Scoring Sytem CVSS|
-|---------------------------------------|
+|**Common Vulnerability Scoring Sytem CVSS**|
 |Provides a standardized approach for measuring and describing  the severity of security related sotfware flaws|
 
 
