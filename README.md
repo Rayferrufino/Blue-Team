@@ -261,5 +261,9 @@ can the vulnerability be easily exploit? if not focus on those that are easy to 
 |COMPLETE 'C'            |The system is completely shutdown|
 
 
+# Interpreting CVSS Vector
 
-
+|Access Vector |Network Vector |Authentication|Confidentiality|Integrity| Availability|
+|--------------|---------------|--------------|---------------|---------|-------------|
+| **AV:N**     |  **AC:M**     |**Au:N**      | **C:P**       |**I:N**  | **A:N**     |
+ 
