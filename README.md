@@ -157,7 +157,6 @@ Requires goverment agencies and goverment contractors to comply with  a series o
 # NIST 800-53 Security and Privacy Controls for Federal Information Systems and Organizations
 
 |A. Scans for vuln in the info system  and hosted applications|
-|-------------------------------------------------------------|
 |B. Employs vuln scanning tools  and techniques that facilitate interoperability among tools and automate parts of the vuln management proccess|
 |Analyze vuln scan reports and results from security control assessments| 
 
