@@ -154,8 +154,8 @@ Requires goverment agencies and goverment contractors to comply with  a series o
 
 |POTENTIAL IMPACT  |
 |------------------|
-|LOW |MODERATE|HIGH|
-|----|--------|----|
+|LOW | MODERATE |HIGH|
+|----|:--------:|----:|
 
 
 
