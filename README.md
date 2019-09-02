@@ -155,7 +155,26 @@ Requires goverment agencies and goverment contractors to comply with  a series o
 
 |LOW | MODERATE |HIGH|
 |----|:--------:|----:|
-
+| The unauthorized
+disclosure of information
+could be expected to have
+a limited adverse effect on
+organizational operations,
+organizational assets, or
+individuals.    |  The unauthorized
+disclosure of information
+could be expected to have
+a serious adverse effect on
+organizational operations,
+organizational assets, or
+individuals.         |   The unauthorized
+disclosure of information
+could be expected to have
+a severe or catastrophic
+adverse effect on
+organizational operations,
+organizational assets, or
+individuals.   |
 
 
 
