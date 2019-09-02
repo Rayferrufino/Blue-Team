@@ -218,7 +218,7 @@ can the vulnerability be easily exploit? if not focus on those that are easy to 
 
 |Access Vector Metric| Describes how an attacker would exploit the vuln|
 |--------------------|-------------------------------------------------|
-|**VALUE**           |             **Description**                     |
+|**VALUE**           |             **DESCRIPTION**                     |
 |Local "L"           |The attacker must have physical or logical acces to the affected system|
 |Adjacent Network "A"|The attacker must have access to the local network that the affected system is connected to|
 |Network "N"         |The attacker can exploit the vuln remotely over the network|
@@ -231,12 +231,34 @@ can the vulnerability be easily exploit? if not focus on those that are easy to 
 | LOW "L"                |Exploting the conditions doesn't require any specialized conditions|
 
 
+|Authentication  Metric  | Describes the authentication hurdles that an attacker would need to clear to exploit|
+|------------------------|------------------------------------------------|
+| **VALUE**              |             **DESCRIPTION**                    |
+|MULTIPLE 'M'            |Attackers would neeed to authenticate two or more times to exploit the vuln|
+|SINGLE 'S'              |Attacker would need to authenticate once to exploit the vuln|
+|NONE 'N'                |Attackers do not need to authenticate to exploit the vuln|
+
+|Confidentiality Metric  | Describes the type of info disclosure that might occur if an attacker successfuly exploits the vuln|
+|------------------------|------------------------------------------------|
+| **VALUE**              |             **DESCRIPTION**                    |
+|NONE 'N'                |Thre is no confidentiality impact|
+|PARTIAL 'P'             |Access to some info is possible, but the attacker does not have control over what information is compromised|
+|COMPLETE 'C'            |All information in the system is compromised|
 
 
+|Integrity  Metric       | Describes the type of info alteration that ight occur if an attacker succesfuly exploits the vuln|
+|------------------------|------------------------------------------------|
+| **VALUE**              |             **DESCRIPTION**                    |
+|NONE 'N'                |There is no integrity impact                    |
+|PARTIAL 'P'             |Modification of some info is possible, but the attacker does not have control over what info is modified|
+|COMPLETE 'C'            |The integrity of the system is totally  compromised, and the attacker may change any info at will|
 
-
-
-
+|Availability  Metric    | Describes the type of disruption that might occur if an attacker succesfully exploits the vulnerability|
+|------------------------|------------------------------------------------|
+| **VALUE**              |             **DESCRIPTION**                    |
+|NONE 'N'                |There is no availability impact                    |
+|PARTIAL 'P'             |The performance of the system is degraded|
+|COMPLETE 'C'            |The system is completely shutdown|
 
 
 
