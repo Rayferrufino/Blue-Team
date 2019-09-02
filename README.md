@@ -126,7 +126,7 @@ Using IDS, HIDSs and NIDSs you can perform:
 
 **Heuristic/Behavior Analysis:** detects threats based on their behavior. heuristic detection can detect unknown threats
 
-**Manual Analysis:** huma expertise and instinc can be useful when analyzing data.
+**Manual Analysis:** human expertise and instinc can be useful when analyzing data.
 
 ## Preventing Passive Info Gathering:
 
@@ -218,10 +218,17 @@ can the vulnerability be easily exploit? if not focus on those that are easy to 
 
 |Access Vector Metric| Describes how an attacker would exploit the vuln|
 |--------------------|-------------------------------------------------|
-|Value               |             Description                         |
+|**VALUE**           |             **Description**                     |
 |Local "L"           |The attacker must have physical or logical acces to the affected system|
 |Adjacent Network "A"|The attacker must have access to the local network that the affected system is connected to|
 |Network "N"         |The attacker can exploit the vuln remotely over the network|
+
+|Access Complexity Metric| Describes the difficulty of exploiting the vuln|
+|------------------------|------------------------------------------------|
+| **VALUE**              |             **DESCRIPTION**                    |
+| HIGHT "H"              |Exploting the vuln requires specialized conditions that would be difficult to find|
+| MEDIUM "M"             |Exploting the vuln requires somewhat specialized conditions|
+| LOW "L"                |Exploting the conditions doesn't require any specialized conditions|
 
 
 
