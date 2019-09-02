@@ -181,9 +181,22 @@ may limit the organization from conducting resource intense scans during periods
 ### License limitations:
 may curtail bandwidth consumed by the scanner.
 
+# Scoping Vulnerability Scans
 
+### What systems and networks will be included  in the scan ?
+### Waht technical measures will be used to test wether systems are present on the network?
+### What test will be performed againts systems discovered by a vulnerability scan?
 
+# Security Content Automation Protocol SCAP 
+|   Common Configuration Enumaration CCE              |
+|-------------------------------------------------------------|
+|Provides a stantard nomenclature for system config issues|
 
+|Common Platform EnumerationCPE|
+|------------------------------|
+|Provides a standard for describing product names and services|
+||
+||
 
 
 
