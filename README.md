@@ -199,10 +199,29 @@ may curtail bandwidth consumed by the scanner.
 |**Common Vulnerability Scoring Sytem CVSS**|
 |Provides a standardized approach for measuring and describing  the severity of security related sotfware flaws|
 
+## Prioritizing Remediation
+#### Criticality of the systems and Informartion Affected by the Vunerability
+Consider what CIA  the vulnerability affects and it is consequences.
+#### Difficulty of Remediation the Vulnerability
+If fixing a vulnerability will require expensive human or finacial resources  that should be weight in.
+#### Severety of the Vulnerability
+The more severe the issue is,  the more important it is to correct it.
+#### Exposure of the Vulnerability
+can the vulnerability be easily exploit? if not focus on those that are easy to be exploited first
 
+## Barriers to vulnerability Scanning
+- **service degradations**
+- **Customer Commitments**
+- **IT governance**
 
+# Common Vunerability Scoring System CVSS
 
-
+|Access Vector Metric| Describes how an attacker would exploit the vuln|
+|--------------------|-------------------------------------------------|
+|Value               |             Description                         |
+|Local "L"           |The attacker must have physical or logical acces to the affected system|
+|Adjacent Network "A"|The attacker must have access to the local network that the affected system is connected to|
+|Network "N"         |The attacker can exploit the vuln remotely over the network|
 
 
 
