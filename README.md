@@ -159,10 +159,27 @@ Requires goverment agencies and goverment contractors to comply with  a series o
 |-------------------------------------------------------------|
 |A. Scans for vuln in the info system  and hosted applications|
 |B. Employs vuln scanning tools  and techniques that facilitate interoperability among tools and automate parts of the vuln management proccess|
-|Analyze vuln scan reports and results from security control assessments| 
-|SS|
+|C. Analyze vuln scan reports and results from security control assessments| 
+|D. Remediates legitimate  vuln in accordance with an organizational assessment of risk|
+|E. Shares information obtained from the vuln scanning proccess and security control assesssments to hel eliminate similar vuln in other systems |
 
 
+# Scan Frequency
+
+### Risk Appetite:
+Willingness to tolerate risk within the environment.
+
+### Regulatory requirements:
+PCI DSS or FISMA may indicate a minimun frequency for vuln scans
+
+### Technical Constraints:
+may limit the frequency of scanning.Ex scannings can only be done for a certain amount per day.
+
+### Business Constraints :
+may limit the organization from conducting resource intense scans during periods of high business activity to avoid disruption of critical proccess|
+
+### License limitations:
+may curtail bandwidth consumed by the scanner.
 
 
 
