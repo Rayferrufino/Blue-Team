@@ -154,8 +154,10 @@ Requires goverment agencies and goverment contractors to comply with  a series o
 ### FIPS 199 Standard
 ![FIPS-199](https://thecybersecuritymancom.files.wordpress.com/2018/03/fips-199.png)                                        
 
+# NIST 800-53 Security and Privacy Controls for Federal Information Systems and Organizations
 
-
+|A. Scans for vuln in the info system  and hosted applications|
+|-------------------------------------------------------------|
 
 
 
