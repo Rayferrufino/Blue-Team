@@ -198,7 +198,8 @@ may curtail bandwidth consumed by the scanner.
 
 |Common Vulnerability and Exposure                        |
 |---------------------------------------------------------|
-|Provides a standard nomenclature for describing security related software flaws|
+|Provides a standard nomenclature for describing security 
+related software flaws|
 
 
 
