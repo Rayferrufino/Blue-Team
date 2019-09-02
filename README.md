@@ -191,15 +191,17 @@ may curtail bandwidth consumed by the scanner.
 |   Common Configuration Enumaration CCE                  |
 |---------------------------------------------------------|
 |Provides a stantard nomenclature for system configuration issues|
-
 |Common Platform Enumeration CPE                          |
 |---------------------------------------------------------|
 |Provides a standard for describing product names and services|
-
-|Common Vulnerability and Exposure                        |
+|Common Vulnerability and Exposure    CVE                    |
 |---------------------------------------------------------|
-|Provides a standard nomenclature for describing security 
-related software flaws|
+|Provides a standard nomenclature for describing security related software flaws|
+|Common Vulnerability Scoring Sytem CVSS|
+|---------------------------------------|
+|Provides a standardized approach for measuring and describing  the severity of security related sotfware flaws|
+
+
 
 
 
