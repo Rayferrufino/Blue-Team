@@ -135,7 +135,26 @@ Using IDS, HIDSs and NIDSs you can perform:
 - Implementing rate limit to fight lookups at high speed
 - Hide zone transfer info.
 
+# Regulatory Environments
+## HIPPA
+Regulates the way that healthcare providers, insurance companies and their bussiness handle protected health info.
 
+## GLBA 
+Regulates how financial institutions may handle customer financial records.
+
+## Payment Card Industry Data Security Standard (PCI DSS)
+### Regulates how companies handle credit card transactions and security controls.
+- Company must run internal and external vuln scans.
+- Scans must be run at least on a quaterly basis and after any **significant**  change in the network.
+- Internal scans must be run by qualified personnel. 
+- External scans must be run by  an Approved Scanning Vendor (ASV)
+
+## FISMA
+Requires goverment agencies and goverment contractors to comply with  a series of security standards.
+
+|POTENTIAL IMPACT |
+|LOW |MODERATE|HIGH|
+--------------------
 
 
 
