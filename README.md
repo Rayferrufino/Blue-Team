@@ -152,7 +152,7 @@ Regulates how financial institutions may handle customer financial records.
 ## FISMA
 Requires goverment agencies and goverment contractors to comply with  a series of security standards.
 
-|POTENTIAL IMPACT  |
+
 |LOW | MODERATE |HIGH|
 |----|:--------:|----:|
 
