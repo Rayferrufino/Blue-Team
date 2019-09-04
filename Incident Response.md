@@ -31,3 +31,6 @@
 - Filter information to reduce clutter
 - Seek assistence from external resources
 
+# CONTAINMENT, ERADICATION, AND RECOVERY
+1. Select a containment strategy appropiate  to the incident circumstances.
+2. Implement the selected , as needed to limit 
