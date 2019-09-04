@@ -33,6 +33,18 @@
 
 # CONTAINMENT, ERADICATION, AND RECOVERY
 1. Select a containment strategy appropiate  to the incident circumstances.
-2. Implement the selected , as needed to limit 
-------------------------------------------
-hello lance
+2. Implement the selected containment strategy, as needed to limit the damage caused by the incident.
+3. Gather additional evidence, as needed to support the response effort and potential legal action.
+4. Identify the attackers and attacking systems.
+5. Eradicate the effects of the incident and recover normal business operations.
+
+# POST INCIDENT ACTIVITY
+## NIST lessons-learned processes:
+- Exactly what happened and at what times?
+- How well did staff and management  perform  in responding to the incident
+- Were the documented procedures followed? Where they adequated?
+- What information was needed sooner?
+- Were any steps or actions taken that might have inhibited the recovery?
+- What addional tools or resources are needed to detect, analyze, and mitigate future incidents?
+
+
