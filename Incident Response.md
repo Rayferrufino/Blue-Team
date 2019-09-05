@@ -90,3 +90,21 @@ provides detailed, tactical information that CSIRT members need when responding 
 |LOW                             |Minimal effect: the organization can still provide all critical services to all users but has lost efficiency|
 |MEDIUM                          |Organization has lost the ability to provide a critical service to a subset of system users.|
 |HIGH                            |Organization is no longer able to provide some critical services to any users.|
+
+# NIST Recoverability effort
+
+|NIST Recoverability Effort      | Definition|
+|--------------------------------|-----------|
+|REGULAR                         |Time to recover is predictable with existing resources.|
+|SUPPLEMENTED                    |Time to recover is predictable with additional resources.|
+|EXTENDED                        |Time to recover is unpredictable, additional resources and out-side help are needed|
+|NOT RECOVERABLE                 |Recover from incident is not possible, launch investigation|
+
+# NIST Information Impact 
+
+|NIST Information Impact     | Definition|
+|--------------------------------|-----------|
+|NONE                        |No info was exfiltrated, changed, deleted, or compromised|
+|Privacy Breach              |Sensitive PII odf taxpayers, employees, beneficiaries was accessed or exfiltrated|
+|Propietary Breach           |Unclassified proprietary info such as protected critical infrastructure info PCII was accessed or exfiltrated|
+|Integrity Loss              |Sensitive or propretary info was changed or deleted|
