@@ -77,8 +77,8 @@ provides detailed, tactical information that CSIRT members need when responding 
 |Attrition|
 |Web|
 |Email| 
-|Inpersonation|
-|Inproper usage|
+|Impersonation|
+|Improper usage|
 |Lost or theft|
 |Unknown|
 
