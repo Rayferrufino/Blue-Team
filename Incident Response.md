@@ -47,4 +47,37 @@
 - Were any steps or actions taken that might have inhibited the recovery?
 - What addional tools or resources are needed to detect, analyze, and mitigate future incidents?
 
+# Policy
+- Approved by the highest level, preferably CEO
+- Write the policy in a manner that makes it  timeless
+- Policy is not use to describe technical content or technologies 
+
+## NIST POLICY KEY ELEMENTS
+- Statement of management of the policy
+- Purpose and objectives of the policy
+- Scope of the policy
+- Definition of roles, responsabilities, and level of authority
+- Performance measures for the CSIRT
+- Reporting and contact forms
+
+
+## Procedures and Playbooks
+provides detailed, tactical information that CSIRT members need when responding to an incident.
+
+## External Communications
+- Law Enforcement
+- Information Sharing Partners
+- Vendors 
+- Public Relations PR
+
+# NIST Threat Clasification
+#### External/Removable media
+#### Attrition
+#### Web
+#### Email 
+#### Inpersonation
+#### Inproper usage
+#### Lost or theft
+#### Unknown
+
 
