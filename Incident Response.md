@@ -82,4 +82,11 @@ provides detailed, tactical information that CSIRT members need when responding 
 |Lost or theft|
 |Unknown|
 
+# NIST Fuctional Impact Categories
 
+|NIST Fuctional Impact Categories| Definition|
+|--------------------------------|-----------|
+|NONE                            |No effect to the organization's ability to provide all services to all users.
+|LOW                             |Minimal effect: the organization can still provide all critical services to all users but has lost efficiency|
+|MEDIUM                          |Organization has lost the ability to provide a critical service to a subset of system users.|
+|HIGH                            |Organization is no longer able to provide some critical services to any users.|
