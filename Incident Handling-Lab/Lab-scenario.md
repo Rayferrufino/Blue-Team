@@ -3,7 +3,9 @@
 [Lab pdf Scenario](https://github.com/bhklimk/CS482/blob/master/labs/Incident_Handling/L.pdf)
 
 #### Question1: What tools will you use to analyze the network trafﬁc and log ﬁles for this network event? List the tools (VMs and software) that you will use during your investigation and what each will be used for. You will likely update this list as you go through the lab.
+- Wireshark, Kali, VmWare, leafpad
 #### Question2: What is the IP address of the host in the 172.16.2.0/24 subnet that accessed our DNS server?
+
 #### Question3: What are the ﬁrst three requests made from that host to our DNS server?
 #### Question5: What is unusual about this interaction between an (external) Internet host and our DNS server?
 #### Question6: Which hosts were scanned?
