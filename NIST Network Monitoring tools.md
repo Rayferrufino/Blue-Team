@@ -9,4 +9,4 @@
 ![solarwinds](https://www.pcwdld.com/wp-content/uploads/app-summary2.jpg)
 
 # Nagios
-![Nagios](https://cdn0.capterra-static.com/screenshots/2091395/43695.png)
+![Nagios](https://media.threatpost.com/wp-content/uploads/sites/103/2016/12/06232028/11373949804_81993de468_z.jpg)
