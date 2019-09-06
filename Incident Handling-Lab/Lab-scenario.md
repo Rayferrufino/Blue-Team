@@ -5,9 +5,11 @@
 #### Question1: What tools will you use to analyze the network trafﬁc and log ﬁles for this network event? List the tools (VMs and software) that you will use during your investigation and what each will be used for. You will likely update this list as you go through the lab.
 - Wireshark, Kali, VmWare, leafpad
 #### Question2: What is the IP address of the host in the 172.16.2.0/24 subnet that accessed our DNS server?
-
+- 172.16.2.58
 #### Question3: What are the ﬁrst three requests made from that host to our DNS server?
+
 #### Question5: What is unusual about this interaction between an (external) Internet host and our DNS server?
+the external host attempted and achieved a zone transfer
 #### Question6: Which hosts were scanned?
 #### Question7: The attacker scanned the same group of ports on each server. Which ports did the attacker include in his/her scan of these hosts?
 #### Question8: Which ports did the attacker ﬁnd open (which ports accepted connection attempts)? Hint: look for evidence of a complete TCP 3-way handshake.
