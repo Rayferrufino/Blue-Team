@@ -14,8 +14,9 @@
 #### Question11: What approach did the attacker take with the internal web server (what was he/she doing that could be considered malicious)? Give examples of the malicious behavior. Hint: Don’t forget the log ﬁles!
 #### Question12: What information was the attacker able to gain from the internal web server that he/she could use in his/her continued attempts to compromise your network?
 #### Question13: Which account does the attacker use to log in to the FTP server?
-CS482Lab9 2
-#### Question14: What password does the attacker use to log on to the FTP server? Question15: Where did the attacker get that password? #### Question16: What ﬁles did the attacker attempt to GET from the FTP server? Question17: Which ﬁles did they successfully GET?  
+#### Question14: What password does the attacker use to log on to the FTP server? 
+#### Question15: Where did the attacker get that password?
+#### Question16: What ﬁles did the attacker attempt to GET from the FTP server? Question17: Which ﬁles did they successfully GET?  
 #### Question18: The attacker placed some ﬁles on the FTP server. What are the names of the ﬁles the attacker tried to upload to the server?
 #### Question19: Which ﬁles did he/she successfully upload? Question20: Should any rules be immediately applied to prevent further malicious activity from the suspected attacker? If so, what should the new rule(s) be?
 #### Question21: Are there any other actions that you would recommend to system administrators to contain the current event? (Your answer should be speciﬁc to the incident you are investigating.)
