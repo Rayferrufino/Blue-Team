@@ -7,13 +7,27 @@
 #### Question2: What is the IP address of the host in the 172.16.2.0/24 subnet that accessed our DNS server?
 - 172.16.2.58
 #### Question3: What are the ﬁrst three requests made from that host to our DNS server?
-
+1. AAA REQUEST
+2. A request to ns1.iwar.itoc
+3. Makes an Zone Request to the DNS server
+#### Question4: What information has the external host determined about our network that he/she might use during subsequent penetration attempts? 
+- a mapping of the domains and IP addressess 
 #### Question5: What is unusual about this interaction between an (external) Internet host and our DNS server?
-the external host attempted and achieved a zone transfer
+the external host achieved a zone transfer query
 #### Question6: Which hosts were scanned?
+- 10.10.4.251
+- 10.10.4.1 
+- 10.10.4.12
+- 10.10.1.16
 #### Question7: The attacker scanned the same group of ports on each server. Which ports did the attacker include in his/her scan of these hosts?
+- 443
+- 80
+- 20, 21, 22, 25
+
 #### Question8: Which ports did the attacker ﬁnd open (which ports accepted connection attempts)? Hint: look for evidence of a complete TCP 3-way handshake.
+
 #### Question9: What is wrong with our ﬁrewall rules that allowed these scans to get to our DMZ network? Hint: The ﬁrewall rules are provided in ﬁrewall rules.txt.
+
 #### Question10: What did the attacker do during his/her anonymous login? What information was the attacker able to get from the FTP server during the anonymous login? Hint: look at both the ftp and ftp-data trafﬁc (tcp ports 20 and 21).
 #### Question11: What approach did the attacker take with the internal web server (what was he/she doing that could be considered malicious)? Give examples of the malicious behavior. Hint: Don’t forget the log ﬁles!
 #### Question12: What information was the attacker able to gain from the internal web server that he/she could use in his/her continued attempts to compromise your network?
