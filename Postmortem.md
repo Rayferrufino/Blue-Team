@@ -25,6 +25,9 @@ Admin button on Homepage was disabled which disallowed login as admin. Attacker 
 #### What went wrong:
 Password is displayed in plaintext when you sign up for an account. Attacker was able to read /etc/passwd file and access other sensitive files on web server. Application running on port 60080 that had a login page and credentials are hardcoded allowing password crack. Attacker was able to find and manipulate PHP code to find credentials for SFTP. Running sudo -l after gaining root access allows you to view all privileges you have access to as root.
 
+Using SFTP credentials, attacker was able to find three other users and their directories. Using symlink in SFTP allowed attacker to create other symbolic links go access other sensitive files on the server. Attacker was able to access SSH using the -L creating a tunnel.
+Attacker was able to use command line via browser using a workaround.
+
 #### Where we got lucky
 
 # Timeline
