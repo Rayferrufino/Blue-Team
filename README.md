@@ -1,4 +1,4 @@
-# Blue-Team Notes
+# NIST Blue-Team Notes
 ![Blue-Team](https://8truhw.dm.files.1drv.com/y4mSaAg5PYru4dzKg07xrxe5p7hYOk6ihHC0hsTDMh8768QoCuRPRV_X7haputhoJ7FOoAvyoQOJC73yssv23YTubOVTS8cFFplYw85ZqcaOyJBr60zEeA31W88PdGBeW2f85LBBxbjJVDBozRlI9UlD2TSGZ92zLXREFzUpG-tobvU31rbE_fvbqGB0r17G17NUHsQg1CFwVC-jGnNTFqPjg?width=650&height=269&cropmode=none)
 ## CIA
 **Confidentialy:** ensures that unauthorized indiv are not able to gain access to sensitive info
