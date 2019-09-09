@@ -11,12 +11,12 @@ then attacker was able to navigate throught the webserver after enumarating, he 
 then a  .php.swp file was inside the ```/var/html``` from there the attacker was able to obtain the hardcode creds and with an hash-decoder the attacker was able to botain the username and pass and fully compromised the machine
 
 #### Impact: Web server was compromised
-#### Root Causes: 
-#### Trigger:.php.swp
-#### Resolution
-#### Detection
-# Action Items
-# Lessons Learned
+#### Root Causes: Unproper handle of web server sanitation
+#### Trigger: .php.swp
+#### Resolution:
+#### Detection:
+# Action Items:
+# Lessons Learned:
 Never present passwords in plaintext, even if it is just being shown to the user who created the account. Disable users from accessing /etc/passwd file or any other sensitive files that only administrators should have privileges for.
 
 #### What went well
