@@ -23,11 +23,11 @@ PS C:\> Set-DnsClientServerAddress -InterfaceIndex 12 -ServerAddresses ("10.0.0.
 ###  The TLS handshake is done using asymmetric while the bulk data requires speed and therefore symmetric encrytion is used.
 
 ## What’s the difference between symmetric and public-key cryptography?
-### symmetric uses a single key while public-key uses two
+- symmetric uses a single key while public-key uses two
 
 ## In public-key cryptography you have a public and a private key, and you often perform both encryption and signing functions. Which key is used for which function?
 
-### You encrypt with the other person’s public key, and you sign with your own private. If they confuse the two, don’t put them in charge of your PKI project
+- You encrypt with the other person’s public key, and you sign with your own private. If they confuse the two, don’t put them in charge of your PKI project
 
 ## Describe the process of a TLS session being set up when someone visits a secure website.
 
