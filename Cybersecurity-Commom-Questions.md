@@ -19,8 +19,8 @@ PS C:\> Set-DnsClientServerAddress -InterfaceIndex 12 -ServerAddresses ("10.0.0.
 
 # Encryption
 ## Does TLS use symmetric or asymmetric encryption?
-### TLS uses both asymmetric encryption and symmetric encryption
-###  The TLS handshake is done using asymmetric while the bulk data requires speed and therefore symmetric encrytion is used.
+- TLS uses both asymmetric encryption and symmetric encryption
+- The TLS handshake is done using asymmetric while the bulk data requires speed and therefore symmetric encrytion is used.
 
 ## What’s the difference between symmetric and public-key cryptography?
 - symmetric uses a single key while public-key uses two
