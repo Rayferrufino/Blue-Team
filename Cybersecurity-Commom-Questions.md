@@ -40,3 +40,18 @@ PS C:\> Set-DnsClientServerAddress -InterfaceIndex 12 -ServerAddresses ("10.0.0.
 - **Client is ready**: The client sends a "finished" message that is encrypted with a session key.
 - **Server is ready**: The server sends a "finished" message encrypted with a session key.
 - **Secure symmetric encryption achieved**: The handshake is completed, and communication continues using the session keys.
+
+## If someone steals the server’s private key can they decrypt all previous content sent to that server?
+no quite sure about previous traffic but certanly 
+- Traffic Eavesdropping and
+- Man-In-The-Middle attacks
+Can be achieved.
+
+## What are some common ways that TLS is attacked, and/or what are some ways it’s been attacked in the past?
+
+- The Heartbleed attack works by tricking servers into leaking information stored in their memory. So any information handled by web servers is potentially vulnerable. That includes passwords, credit card numbers, medical records, and the contents of private email or social media messages.
+- BEAST attack ?
+Short for Browser Exploit Against SSL/TLS, BEAST is a browser exploit against SSL/TLS that was revealed in late September 2011. This attack leverages weaknesses in cipher block chaining (CBC) to exploit the Secure Sockets Layer (SSL) / Transport Layer Security (TLS) protocol. The CBC vulnerability can enable man-in-the-middle (MITM) attacks against SSL in order to silently decrypt and obtain authentication tokens, thereby providing hackers access to data passed between a Web server and the Web browser accessing the server.
+
+## Cryptographically speaking, what is the main method of building a shared secret over a public medium?
+- Diffie-Hellman.
