@@ -85,3 +85,39 @@ Can be achieved.
 
 - **Diffie Hellman, RSA, EC, El Gamal, DSAC**
 
+## What are some common block cipher modes?
+
+- **ECB and CBC**
+
+## What’s the main difference in security between ECB and CBC?
+
+- **ECB just does a one-to-one lookup for encryption, without using an IV, which makes it fairly easy to attack using a chosen-plaintext attack. CBC uses an IV for the first block and then propagates the XOR of the previous block onto subsequent ones. The difference in results can be remarkable**
+
+## What’s more secure, SSL, TLS, or HTTPS?
+**Tricky question but for reference:**
+**HTTPS stack:**
+*HTTP*
+*TLS (SSL)*
+*TCP*
+*IP*
+*Ethernet*
+
+# Network Security
+## What port does ping work over?
+**Trick question. ICMP is a layer 3 protocol therefore has no ports and is neither TCP nor UDP which are layer 4**
+
+## Do you prefer filtered ports or closed ports on your firewall?
+- **Depends on the company security policy, size and other factors!**
+
+## How exactly does traceroute/tracert work at the protocol level?
+- **Linux: sents a UDP packet**
+- **Windows: sents a ICMP packet**
+
+- **Traceroute/tracert, so the packet sent through the network will contain a initial TTL of 1. Once it reach the first router/hop the packet's TTL is reduced by one (1-1=0), On receiving this TTL Time exceeded message, the traceroute program will come to know the source address and other details about the first hop. Then, it will sent another packet with the first router/hop info and a TTL of 2. Traceroute/Tracert will keep doing this until it reaches is final destination and then it will send a message that will be completely different from all the messages of "TTL Time exceeded".***
+![traceroute](https://qph.fs.quoracdn.net/main-qimg-95c283bbddcbdc3b3dcadc72df761211)
+
+## What are your favorite security assessment tools?
+
+- **Metasploit, msfvenom, Nessus, OpenVas, Nikto, Nmap**
+
+## How does a buffer overflow work?
