@@ -19,15 +19,15 @@ PS C:\> Set-DnsClientServerAddress -InterfaceIndex 12 -ServerAddresses ("10.0.0.
 
 # Encryption
 ## Does TLS use symmetric or asymmetric encryption?
-- TLS uses both asymmetric encryption and symmetric encryption
-- The TLS handshake is done using asymmetric while the bulk data requires speed and therefore symmetric encrytion is used.
+- **TLS uses both asymmetric encryption and symmetric encryption**
+- **The TLS handshake is done using asymmetric while the bulk data requires speed and therefore symmetric encrytion is used.**
 
 ## What’s the difference between symmetric and public-key cryptography?
-- symmetric uses a single key while public-key uses two
+- **symmetric uses a single key while public-key uses two**
 
 ## In public-key cryptography you have a public and a private key, and you often perform both encryption and signing functions. Which key is used for which function?
 
-- You encrypt with the other person’s public key, and you sign with your own private. If they confuse the two, don’t put them in charge of your PKI project
+- **You encrypt with the other person’s public key, and you sign with your own private. If they confuse the two, don’t put them in charge of your PKI project**
 
 ## Describe the process of a TLS session being set up when someone visits a secure website.
 
@@ -49,9 +49,39 @@ Can be achieved.
 
 ## What are some common ways that TLS is attacked, and/or what are some ways it’s been attacked in the past?
 
-- The Heartbleed attack works by tricking servers into leaking information stored in their memory. So any information handled by web servers is potentially vulnerable. That includes passwords, credit card numbers, medical records, and the contents of private email or social media messages.
-- BEAST attack ?
-Short for Browser Exploit Against SSL/TLS, BEAST is a browser exploit against SSL/TLS that was revealed in late September 2011. This attack leverages weaknesses in cipher block chaining (CBC) to exploit the Secure Sockets Layer (SSL) / Transport Layer Security (TLS) protocol. The CBC vulnerability can enable man-in-the-middle (MITM) attacks against SSL in order to silently decrypt and obtain authentication tokens, thereby providing hackers access to data passed between a Web server and the Web browser accessing the server.
+- **The Heartbleed attack works by tricking servers into leaking information stored in their memory. So any information handled by web servers is potentially vulnerable. That includes passwords, credit card numbers, medical records, and the contents of private email or social media messages.**
+- **BEAST attack ? Short for Browser Exploit Against SSL/TLS, BEAST is a browser exploit against SSL/TLS that was revealed in late September 2011. This attack leverages weaknesses in cipher block chaining (CBC) to exploit the Secure Sockets Layer (SSL) / Transport Layer Security (TLS) protocol. The CBC vulnerability can enable man-in-the-middle (MITM) attacks against SSL in order to silently decrypt and obtain authentication tokens, thereby providing hackers access to data passed between a Web server and the Web browser accessing the server.**
 
 ## Cryptographically speaking, what is the main method of building a shared secret over a public medium?
-- Diffie-Hellman.
+- **Diffie-Hellman.**
+
+## What’s the difference between Diffie-Hellman and RSA?
+- **Diffie-Hellman is a key-exchange protocol, and RSA is an encryption/signing protocol.**
+
+## What kind of attack is a standard Diffie-Hellman exchange vulnerable to?
+- **Man-in-the-middle, as neither side is authenticated.**
+
+## What is Forward Secrecy?
+- **Forward Secrecy is a system that uses ephemeral session keys to do the actual encryption of TLS data so that even if the server’s private key were to be compromised, an attacker could not use it to decrypt captured data that had been sent to that server in the past.**
+
+## What’s the difference between encoding, encryption, and hashing?
+
+- **Encoding** is designed to protect the integrity of data as it crosses networks and systems, i.e. to keep its original message upon arriving, and it isn’t primarily a security function. It is easily reversible because the system for encoding is almost necessarily and by definition in wide use. 
+- **Encryption** is designed purely for confidentiality and is reversible only if you have the appropriate key/keys.
+- **Hashing** the operation is one-way (non-reversible), and the output is of a fixed length that is usually much smaller than the input.
+
+## What is an IV used for in encryption?
+- **An IV is used to initiate encryption by providing an addition (third) input in addition to the cleartext and the key. In general you want IVs that are random and unpredictable, which are used only once for each message. The goal is to ensure that two messages encrypted with the same key do not result in the same ciphertext.**
+
+## What are block and stream ciphers? What are the differences, and when would you use one vs. the other?
+
+- **Block-based encryption algorithms work on a block of cleartext at a time, and are best used for situations where you know how large the message will be, e.g., for a file. Stream ciphers work on single units of cleartext, such as a bit or a byte, and they’re best used when you’re not sure how long the message will be.**
+
+## What are some examples of symmetric encryption algorithms?
+
+- **DES, RCx, Blowfish, Rijndael (AES)**
+
+## What are some examples of asymmetric encryption algorithms?
+
+- **Diffie Hellman, RSA, EC, El Gamal, DSAC**
+
