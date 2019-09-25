@@ -96,11 +96,13 @@ Can be achieved.
 ## What’s more secure, SSL, TLS, or HTTPS?
 **Tricky question but for reference:**
 **HTTPS stack:**
-*HTTP*
-*TLS (SSL)*
-*TCP*
-*IP*
-*Ethernet*
+
+- *HTTP*
+- *TLS (SSL)*
+- *TCP*
+- *IP*
+- *Ethernet*
+
 
 # Network Security
 ## What port does ping work over?
