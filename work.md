@@ -17,3 +17,10 @@ Bar     | Valhalla Hell's Kitchen| Bartender | 2015-2017|815 9TH AVE, NEW YORK, 
 
 |Low-key, urban-rustic tavern offering a robust menu of microbrews on tap & by the bottle. feature 48 craft beers on tap.|
 |----|
+
+Duties                                                  | 
+--------------------------------------------------------|
+|Preparing alcoholic or non-alcoholic beverages for bar and patrons|
+|Interacting with customers, taking orders and serving food and drinks|
+|Assessing bar customers’ needs and preferences and making recommendations|
+|Restock and replenish bar inventory and supplies|
