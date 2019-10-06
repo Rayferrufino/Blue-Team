@@ -1,3 +1,23 @@
+
+
+
+Contact| Information|
+|---|---|
+Email| rayferrufino@gmail.com|
+cellphone| 240-644-7812|
+
+|Professional References|Contact Info|
+|---|---|
+|Byan Sholl -Bartender| 757-769-2511 Bryansholl55@gmail.com
+|Alex lagunes -Bartender| 917-667-7924| 
+|Anton Hogan -Bartender| 404-234-7322 antonhogan78@gmail.com|
+
+#### POS
+- ALOHA
+- TOAST
+- RINGCENTRAL
+- MICROS
+
 Bar     | Rockwood Music Hall NYC| Bartender | 11/17-Present|196 Allen St, New York, NY 10002|
 ------- | ---------------- | ------|-----------|---|
 
@@ -24,3 +44,4 @@ Duties                                                  |
 |Interacting with customers, taking orders and serving food and drinks|
 |Assessing bar customers’ needs and preferences and making recommendations|
 |Restock and replenish bar inventory and supplies|
+|Check customers’ identification and confirm it meets legal drinking age|
