@@ -1,6 +1,9 @@
 Bar     | Rockwood Music Hall NYC| Bartender | 11/17-Present|196 Allen St, New York, NY 10002|
 ------- | ---------------- | ------|-----------|---|
 
+|Intimate venue presenting singer-songwriters & new artists. The venue features three stages and a record label of the same name.|
+|--|
+
 Duties                                                  | 
 --------------------------------------------------------|
 |Prepare alcohol or non-alcohol beverages for bar patrons|
@@ -11,4 +14,6 @@ Duties                                                  |
 
 Bar     | Valhalla Hell's Kitchen| Bartender | 2015-2017|815 9TH AVE, NEW YORK, NY 10019|
 ------- | ---------------- | ------|-----------|---|
-|low-key, urban-rustic tavern offering a robust menu of microbrews on tap & by the bottle. feature 48 craft beers on tap.|
+
+|Low-key, urban-rustic tavern offering a robust menu of microbrews on tap & by the bottle. feature 48 craft beers on tap.|
+|----|
