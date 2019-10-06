@@ -1,11 +1,8 @@
-Bar     | Rockwood Music Hall| Bartender |
-------- | ---------------- | -------------------------- |
+Bar     | Rockwood Music Hall NYC| Bartender | 11/17-Present|
+------- | ---------------- | ------|-----------|
 
 
 Duties                                                  | 
 --------------------------------------------------------|
 Prepare alcohol or non-alcohol beverages for bar patrons|
-
-Joan   |Prepare alcohol or non-alcohol beverages for bar patrons |
-Sally  | vindaloo        | mild       
-Erin   | lamb madras | HOT 
+Deliver a consistently high level of customer service to each client and maintain a safe environment|
