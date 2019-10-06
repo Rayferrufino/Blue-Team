@@ -1,10 +1,10 @@
 
-
+Hi, my name is Ray and I would like to apply for one of the bartender positions. I currrently work at **The Rockwood Music Hall** only **Saturdays** and **Sundays**. I have **LATE NIGHT AVAILABILITY** and **FLEXIBLE SCHEDULE** 
 
 Contact| Information|
 |---|---|
-Email| rayferrufino@gmail.com|
-cellphone| 240-644-7812|
+|Email| rayferrufino@gmail.com|
+|cellphone| 240-644-7812|
 
 |Professional References|Contact Info|
 |---|---|
@@ -18,8 +18,8 @@ cellphone| 240-644-7812|
 - RINGCENTRAL
 - MICROS
 
-Bar     | Rockwood Music Hall NYC| Bartender | 11/17-Present|196 Allen St, New York, NY 10002|
-------- | ---------------- | ------|-----------|---|
+|Bar     | Rockwood Music Hall NYC| Bartender | 11/17-Present|196 Allen St, New York, NY 10002|
+|------- | ---------------- | ------|-----------|---|
 
 |Intimate venue presenting singer-songwriters & new artists. The venue features three stages and a record label of the same name.|
 |--|
@@ -38,8 +38,8 @@ Bar     | Valhalla Hell's Kitchen| Bartender | 2015-2017|815 9TH AVE, NEW YORK, 
 |Low-key, urban-rustic tavern offering a robust menu of microbrews on tap & by the bottle. feature 48 craft beers on tap.|
 |----|
 
-Duties                                                  | 
---------------------------------------------------------|
+|Duties                                                  | 
+|--------------------------------------------------------|
 |Preparing alcoholic or non-alcoholic beverages for bar and patrons|
 |Interacting with customers, taking orders and serving food and drinks|
 |Assessing bar customers’ needs and preferences and making recommendations|
