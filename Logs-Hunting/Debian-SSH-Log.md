@@ -1,6 +1,6 @@
 # Valid SSH session Login
 
-```bash
+```perl
 Aug  6 03:11:13 debian sshd[1421]: Accepted password for debian from 192.168.56.3 port 53358 ssh2
 Aug  6 03:11:13 debian sshd[1421]: pam_unix(sshd:session): session opened for user debian by (uid=0)
 Aug  6 03:11:13 debian systemd-logind[412]: New session 4 of user debian.
@@ -15,7 +15,7 @@ Aug  6 03:11:22 debian systemd-logind[412]: New session 5 of user debian.
 ```
 
 # Invalid SSH session Login Attempt
-```bash
+```perl
 Aug  6 02:54:16 debian sshd[1278]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=192.168.56.3  user=root
 Aug  6 02:54:18 debian sshd[1278]: Failed password for root from 192.168.56.3 port 53312 ssh2
 Aug  6 02:54:23 debian sshd[1278]: Failed password for root from 192.168.56.3 port 53312 ssh2
