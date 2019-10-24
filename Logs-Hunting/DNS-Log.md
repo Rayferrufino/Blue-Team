@@ -8,7 +8,8 @@ The actors on this DNS log are:
 4. Which websites are being queried in the logs?
 Using a little of Linux we can parse this file to get the websites that were visited
 
-```bash
+# Solution
+```perl
 cat dns.log | cut -f 7 | uniq | grep www
 ```
 <details><summary>Websites</summary>
